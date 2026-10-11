@@ -1,0 +1,84 @@
+pub mod openai;
+pub mod prompt;
+
+use async_trait::async_trait;
+use serde::{Deserialize, Serialize};
+
+use crate::error::AppError;
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct LlmConfig {
+    pub api_key: String,
+    pub model: String,
+    pub base_url: String,
+    pub max_tokens: u32,
+    pub temperature: f64,
+}
+
+impl Default for LlmConfig {
+    fn default() -> Self {
+        Self {
+            api_key: String::new(),
+            model: "glm-4.7".to_string(),
+            base_url: "https://open.bigmodel.cn/api/paas/v4".to_string(),
+            max_tokens: 4096,
+            temperature: 0.3,
+        }
+    }
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct PolishRequest {
+    pub raw_text: String,
+    pub app_type: AppType,
+    pub dictionary: Vec<String>,
+    pub translate_enabled: bool,
+    pub target_lang: String,
+    pub selected_text: Option<String>,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct PolishResponse {
+    pub polished_text: String,
+}
+
+#[derive(Debug, Clone, Copy, Serialize, Deserialize, PartialEq, Default)]
+pub enum AppType {
+    Email,
+    Chat,
+    Code,
+    Document,
+    #[default]
+    General,
+}
+
+/// Callback for streaming LLM chunks to the frontend
+pub type ChunkCallback = Box<dyn Fn(&str) + Send + Sync>;
+
+#[async_trait]
+pub trait LlmProvider: Send + Sync {
+    async fn polish(
+        &self,
+        config: &LlmConfig,
+        req: &PolishRequest,
+        on_chunk: Option<&ChunkCallback>,
+    ) -> Result<PolishResponse, AppError>;
+
+    fn name(&self) -> &str;
+}
+
+pub fn create_provider(
+    provider_name: &str,
+    client: Option<reqwest::Client>,
+) -> Box<dyn LlmProvider> {
+    match client {
+        Some(c) => Box::new(openai::OpenAiProvider::with_client_for_provider(
+            provider_name,
+            c,
+        )),
+        None => Box::new(openai::OpenAiProvider::with_client_for_provider(
+            provider_name,
+            reqwest::Client::new(),
+        )),
+    }
+}

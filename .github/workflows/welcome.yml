@@ -1,0 +1,33 @@
+name: Welcome
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            Thanks for opening your first issue! 🎉
+
+            We'll take a look as soon as possible. In the meantime:
+            - Make sure you've filled out the template completely
+            - Check [existing issues](https://github.com/${{ github.repository }}/issues) for duplicates
+            - Read the project's README and NOTICE for this snapshot's scope
+          pr-message: |
+            Thanks for your first pull request! 🎉
+
+            A maintainer will review it soon. While you wait:
+            - Make sure CI checks pass
+            - Check the [contributing guide](https://github.com/${{ github.repository }}/blob/HEAD/CONTRIBUTING.md)
+            - Preserve the third-party attribution recorded in NOTICE

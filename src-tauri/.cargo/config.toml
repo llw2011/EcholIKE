@@ -1,0 +1,6 @@
+[build]
+jobs = 2
+target-dir = "target-codex-check"
+
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "link-args=/STACK:16777216"]

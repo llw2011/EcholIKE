@@ -1,0 +1,29 @@
+[Unit]
+Description=EcholIKE API backend
+After=network-online.target docker.service
+Wants=network-online.target docker.service
+Requires=docker.service
+ConditionPathIsDirectory=/srv/echolike/current
+ConditionPathExists=/srv/echolike/current/.env
+ConditionPathExists=/srv/echolike/current/dist/index.js
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=echolike
+Group=echolike
+WorkingDirectory=/srv/echolike/current
+EnvironmentFile=/srv/echolike/current/.env
+ExecStart=/usr/bin/node ./dist/index.js
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=echolike-api
+LogRateLimitIntervalSec=30
+LogRateLimitBurst=500
+
+[Install]
+WantedBy=multi-user.target

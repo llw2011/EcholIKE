@@ -1,0 +1,2768 @@
+{
+  "schemaVersion": 1,
+  "auditedAtUtc": "2026-10-07T15:49:30.911932+00:00",
+  "localRelease": {
+    "version": "0.2.31",
+    "commit": "a7ce82a89850a2527616c4cf950056258527b82a"
+  },
+  "localEarliestReachableCommit": "41246d1fa79ffa2f9586d24daed9a923905ac11d",
+  "upstream": {
+    "repository": "https://github.com/tover0314-w/opentypeless",
+    "commit": "1cfda3050e5ee5402e4ed86a31f372fd643fc9f7",
+    "committerDate": "2026-06-15T06:07:33Z",
+    "archiveUrl": "https://codeload.github.com/tover0314-w/opentypeless/zip/1cfda3050e5ee5402e4ed86a31f372fd643fc9f7",
+    "archiveBytes": 4707104,
+    "archiveSha256": "1a7a06bd79f17805be925d4e111a7df877c01c29aacc7700b892932607758c45",
+    "licensePath": "LICENSE",
+    "licenseSha256": "244b7cf218fcf3164c912775c6b97e2b70be0cf8b62233a1ade2b5fab0aa7084",
+    "licenseIdentification": "MIT License; Copyright (c) 2025 OpenTypeless Contributors"
+  },
+  "method": {
+    "exactFiles": "Complete original bytes are equal; SHA-256 and Git blob IDs are recorded.",
+    "substantialBlocks": "Same-path raw splitlines; SequenceMatcher(autoJunk=False); blocks at least 6 lines and 200 non-newline bytes. No identifiers or branding were normalized.",
+    "blockHashes": "SHA-256 over exact matching lines joined by LF, without trailing LF; original full-file bytes are separately hashed.",
+    "genericTemplateExclusion": "src/vite-env.d.ts is counted separately and excluded from functional exact-file totals.",
+    "coverage": "Tracked product/source files and tracked images/fonts/audio from two immutable local Git trees compared to one immutable public upstream tree.",
+    "noOriginalityPercentage": "Overlap is evidence, not a copyright ownership determination or an originality percentage."
+  },
+  "snapshots": {
+    "41246d1fa79ffa2f9586d24daed9a923905ac11d": {
+      "sourceFileCount": 36,
+      "exactFunctionalFiles": [
+        {
+          "localPath": "src-tauri/src/app_detector/mod.rs",
+          "upstreamPaths": [
+            "src-tauri/src/app_detector/mod.rs"
+          ],
+          "bytes": 4694,
+          "lines": 183,
+          "sha256": "07089a86a6e324cd173c798af431ec6631ac51b4bc4cff0a2d00b9524e13c606",
+          "gitBlobSha1": "93568431b1bf2bc7f8ab9836249296077c7f4812"
+        },
+        {
+          "localPath": "src-tauri/src/audio/capture.rs",
+          "upstreamPaths": [
+            "src-tauri/src/audio/capture.rs"
+          ],
+          "bytes": 7232,
+          "lines": 220,
+          "sha256": "da23797e2ac275d415f2afe902217c2d84e3d379296f081924044eb1df3675a4",
+          "gitBlobSha1": "3e89b11d0a599c369fb0abd9eb1dfe2c0b6a0e67"
+        },
+        {
+          "localPath": "src-tauri/src/audio/mod.rs",
+          "upstreamPaths": [
+            "src-tauri/src/audio/mod.rs"
+          ],
+          "bytes": 84,
+          "lines": 3,
+          "sha256": "bdaab1768122d868bdb462251c375f17b828da11c83b8c2e5f3d8163d40a1bf4",
+          "gitBlobSha1": "be7c8b87bebebe88e70426cb9694915ba4524da3"
+        },
+        {
+          "localPath": "src-tauri/src/hotkey.rs",
+          "upstreamPaths": [
+            "src-tauri/src/hotkey.rs"
+          ],
+          "bytes": 9259,
+          "lines": 288,
+          "sha256": "106b35b090544688a9475c4454b19cafcdedf1b372167c0aa3599d4776e04b84",
+          "gitBlobSha1": "27f86ab5b0d8c1904dec4032c6058d346ac00b36"
+        },
+        {
+          "localPath": "src-tauri/src/llm/cloud.rs",
+          "upstreamPaths": [
+            "src-tauri/src/llm/cloud.rs"
+          ],
+          "bytes": 10199,
+          "lines": 301,
+          "sha256": "6971d9025fe8f82a14975c95ffaef412c2119ba60666b3a26228e747c99efc46",
+          "gitBlobSha1": "4ffb3a57b285e64d77679e4d1867ac88925885ee"
+        },
+        {
+          "localPath": "src-tauri/src/llm/mod.rs",
+          "upstreamPaths": [
+            "src-tauri/src/llm/mod.rs"
+          ],
+          "bytes": 2009,
+          "lines": 81,
+          "sha256": "82b67bb5f67b1e49c2a6f444aba761aea7129aa2cf0c60c80e39b7f57141b3cc",
+          "gitBlobSha1": "c79d37987244c7c47b14c882184c6f8f182c7f38"
+        },
+        {
+          "localPath": "src-tauri/src/llm/openai.rs",
+          "upstreamPaths": [
+            "src-tauri/src/llm/openai.rs"
+          ],
+          "bytes": 9637,
+          "lines": 257,
+          "sha256": "e445c681881a68259a7a886858fb57d15a6881d7142f911103f5466c8ad97a37",
+          "gitBlobSha1": "9253b4cdac29f0a91a5c8288f00ae9050ad74d39"
+        },
+        {
+          "localPath": "src-tauri/src/output/clipboard.rs",
+          "upstreamPaths": [
+            "src-tauri/src/output/clipboard.rs"
+          ],
+          "bytes": 3046,
+          "lines": 85,
+          "sha256": "b266b2d4c24fb5e8cf587977e362396d8beb85d813d40cbfed117ed56b317b70",
+          "gitBlobSha1": "531771c7f39bb8b57de918f468139a30051e496e"
+        },
+        {
+          "localPath": "src-tauri/src/output/keyboard.rs",
+          "upstreamPaths": [
+            "src-tauri/src/output/keyboard.rs"
+          ],
+          "bytes": 5217,
+          "lines": 160,
+          "sha256": "b962507fcd8f52b7a55de63ed232311cec44d7585b82a3b677428ea6a9c523ce",
+          "gitBlobSha1": "c5e0634bdcbbc253b9f1c3dcf1b57a3f49292726"
+        },
+        {
+          "localPath": "src-tauri/src/output/mod.rs",
+          "upstreamPaths": [
+            "src-tauri/src/output/mod.rs"
+          ],
+          "bytes": 2192,
+          "lines": 67,
+          "sha256": "6065abfb22b3205247be63f51ea13af27a9b43c5c299875f1f48873715146c4b",
+          "gitBlobSha1": "f967a4e3bbb472b410705375da8e5cdfd81bca70"
+        },
+        {
+          "localPath": "src-tauri/src/stt/assemblyai.rs",
+          "upstreamPaths": [
+            "src-tauri/src/stt/assemblyai.rs"
+          ],
+          "bytes": 5649,
+          "lines": 164,
+          "sha256": "439ed960a9c8a692904c32645d26471091bf750dbe6f142a4ecff3933cd2f3b6",
+          "gitBlobSha1": "86761fa66b9df07e614326f07eb62ab8bb896356"
+        },
+        {
+          "localPath": "src-tauri/src/stt/cloud.rs",
+          "upstreamPaths": [
+            "src-tauri/src/stt/cloud.rs"
+          ],
+          "bytes": 10153,
+          "lines": 293,
+          "sha256": "cbd7f33619115fe8e9b0c9f81d0530ff64abd9aea469e5a60df68726139d09a9",
+          "gitBlobSha1": "0c0012c226b2567a55cf0940b11ee67d60c0a3d5"
+        },
+        {
+          "localPath": "src-tauri/src/stt/deepgram.rs",
+          "upstreamPaths": [
+            "src-tauri/src/stt/deepgram.rs"
+          ],
+          "bytes": 6440,
+          "lines": 212,
+          "sha256": "df2b9e4891ba08fa79bee1b423d8772850f684dca8d0261205a2111cc391b9f4",
+          "gitBlobSha1": "50161fd0f238ee494e98d79df142e7c83fbba584"
+        },
+        {
+          "localPath": "src-tauri/src/stt/mod.rs",
+          "upstreamPaths": [
+            "src-tauri/src/stt/mod.rs"
+          ],
+          "bytes": 3866,
+          "lines": 119,
+          "sha256": "dc87caaa43bf0d6809b8a5c7cf902ea226558023e43dfc7f309316e4562e2927",
+          "gitBlobSha1": "e9b638ed6f684de0593b4c348f73ef6b4395596c"
+        },
+        {
+          "localPath": "src-tauri/src/stt/whisper_compat.rs",
+          "upstreamPaths": [
+            "src-tauri/src/stt/whisper_compat.rs"
+          ],
+          "bytes": 11024,
+          "lines": 297,
+          "sha256": "4d48caf093be044ff299cf44542dbc367e580ff9277eb4f19419c45c1fd2cd23",
+          "gitBlobSha1": "51ad8aa3084e969defcaebacdd518fec317b23c8"
+        },
+        {
+          "localPath": "src/styles/styles/globals.css",
+          "upstreamPaths": [
+            "src/styles/globals.css"
+          ],
+          "bytes": 15569,
+          "lines": 634,
+          "sha256": "6c0343ce82273a5e3311ef9dc9d672fc498c6700bef1112ef14d32c2f520fa02",
+          "gitBlobSha1": "9b16bd2a2117d30175a7fbbaafc533c74f30b833"
+        }
+      ],
+      "exactFunctionalFileCount": 16,
+      "exactFunctionalBytes": 106270,
+      "exactFunctionalLines": 3364,
+      "genericExactFiles": [
+        {
+          "localPath": "src/vite-env.d.ts",
+          "upstreamPaths": [
+            "src/vite-env.d.ts"
+          ],
+          "bytes": 38,
+          "lines": 1,
+          "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+          "gitBlobSha1": "11f02fe2a0061d6e6e1f271b21da95423b448b32"
+        }
+      ],
+      "substantialOverlapFileCount": 23,
+      "substantialOverlapLines": 6163,
+      "substantialOverlaps": [
+        {
+          "path": "src-tauri/src/pipeline.rs",
+          "localBytes": 57077,
+          "localLines": 1506,
+          "localSha256": "964e3fecde5b6b6a7ce3888a336ff1d4f054ab47228341975932b651942ffb73",
+          "upstreamBytes": 54770,
+          "upstreamLines": 1453,
+          "upstreamSha256": "4c42b03327aac3b03eab40ad1e45a3b31ea2ea70a21933fcb140c767d52f9183",
+          "matchedBlockLines": 1419,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 70,
+              "eolNormalizedBytes": 2391,
+              "sha256": "4e021497773d067665a89dc5f31992738ae5f93b4a432b0d7e2bc1aec30e3ffe"
+            },
+            {
+              "upstreamStartLine": 71,
+              "localStartLine": 79,
+              "lineCount": 95,
+              "eolNormalizedBytes": 2422,
+              "sha256": "9c5213451ae9e8edaed10fbc60d75369bb9073d2cab1febbc0a691686eaa34ff"
+            },
+            {
+              "upstreamStartLine": 171,
+              "localStartLine": 175,
+              "lineCount": 92,
+              "eolNormalizedBytes": 3611,
+              "sha256": "ea8043fd5f6870ec298e2ce1a85f1b43ed4414fa216c17b4dac81c222a483684"
+            },
+            {
+              "upstreamStartLine": 268,
+              "localStartLine": 272,
+              "lineCount": 135,
+              "eolNormalizedBytes": 4869,
+              "sha256": "60e010a712f509a9425ebcb2fc6aedfb2cd0cf072cd10aa6d0168921418c2ad0"
+            },
+            {
+              "upstreamStartLine": 404,
+              "localStartLine": 408,
+              "lineCount": 276,
+              "eolNormalizedBytes": 10623,
+              "sha256": "4fdfcba0cb60b4aa257281db015165a99b33a4e9388e7407dc1ebfb932295d08"
+            },
+            {
+              "upstreamStartLine": 680,
+              "localStartLine": 686,
+              "lineCount": 9,
+              "eolNormalizedBytes": 443,
+              "sha256": "85f4960719cac6c5f201cd6119e92e65b9896f93cd0e466c41390840be30564e"
+            },
+            {
+              "upstreamStartLine": 689,
+              "localStartLine": 719,
+              "lineCount": 166,
+              "eolNormalizedBytes": 8436,
+              "sha256": "950d76e5b349ac29902b4766a31a568983c31148fb3329f8aa7ceda3457410ff"
+            },
+            {
+              "upstreamStartLine": 856,
+              "localStartLine": 886,
+              "lineCount": 233,
+              "eolNormalizedBytes": 8262,
+              "sha256": "c8e898f717d4920b221e12ee5d07b2e003afc2cb467c53dd0de28f96e09cea2b"
+            },
+            {
+              "upstreamStartLine": 1092,
+              "localStartLine": 1122,
+              "lineCount": 251,
+              "eolNormalizedBytes": 9577,
+              "sha256": "2a96ab0e721546937cd96ff89d11be0a6113203d51e9bb4a11c9b51dbffbb27a"
+            },
+            {
+              "upstreamStartLine": 1343,
+              "localStartLine": 1399,
+              "lineCount": 82,
+              "eolNormalizedBytes": 2579,
+              "sha256": "35c74483e498a67ef7f5ef4a1a6b84804663106df9425f1eb31d7106dfaa5746"
+            },
+            {
+              "upstreamStartLine": 1427,
+              "localStartLine": 1483,
+              "lineCount": 10,
+              "eolNormalizedBytes": 271,
+              "sha256": "e72b2e3579e69dd72d1b12834ec5f8c6884ffd129648e92f809c41d84bc4dd27"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/llm/prompt.rs",
+          "localBytes": 18255,
+          "localLines": 416,
+          "localSha256": "cbf923d28304141ce5af7f43642be47a45db0b4855317853244833e080cd08b4",
+          "upstreamBytes": 18271,
+          "upstreamLines": 416,
+          "upstreamSha256": "aab8d6fc204d12a7f33e3a4c4aa9f37d217bbf3d996e7ec4e6ae697ca56a8bc0",
+          "matchedBlockLines": 413,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 216,
+              "eolNormalizedBytes": 10513,
+              "sha256": "11178aa378cf46bb5bcce65cde94bb1084554131f2633a63bb328dad8a2e568e"
+            },
+            {
+              "upstreamStartLine": 220,
+              "localStartLine": 220,
+              "lineCount": 197,
+              "eolNormalizedBytes": 7543,
+              "sha256": "0b95d256882fe68e44caa99594cc1dcb42b646255c2e627bba1f5c55833490b7"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/storage/mod.rs",
+          "localBytes": 12324,
+          "localLines": 388,
+          "localSha256": "36d4273c9f017fdafff488fb5f4a29989dedc85bc11a1e44d026460710d6330b",
+          "upstreamBytes": 12267,
+          "upstreamLines": 386,
+          "upstreamSha256": "a53d1f328ead45b19ea62ad9fcdbadbdb9cf8240a2db1bf5645e48d7a77fcd45",
+          "matchedBlockLines": 383,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 21,
+              "eolNormalizedBytes": 599,
+              "sha256": "5f26ac8cef5e2250c916f4cd3fec948188f6e69b4cf0912df132b1c1a580629f"
+            },
+            {
+              "upstreamStartLine": 22,
+              "localStartLine": 23,
+              "lineCount": 30,
+              "eolNormalizedBytes": 1183,
+              "sha256": "42a2752ddfe832caf5882a1e66aa1675d08f74d018cfedfb526c16d60c54d469"
+            },
+            {
+              "upstreamStartLine": 55,
+              "localStartLine": 57,
+              "lineCount": 332,
+              "eolNormalizedBytes": 10367,
+              "sha256": "ce048feea91625b2c4f1492db5531fa5f184ff22afd6a3f9512b7d94a5e2b2ff"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/lib.rs",
+          "localBytes": 16838,
+          "localLines": 398,
+          "localSha256": "39720c2b8dc3941e272010b6219a57126ed1d63d1da29137035262d54e1395ae",
+          "upstreamBytes": 19423,
+          "upstreamLines": 452,
+          "upstreamSha256": "3d4771f0e0467817c977bc4f4ac8a8d9e5b5796779d8d3edbd8516143a831116",
+          "matchedBlockLines": 382,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 18,
+              "eolNormalizedBytes": 395,
+              "sha256": "0e74d7a9de058f8ba3fb1132e3cfcc0fa0a33d9e5a07993865323dda6527dd65"
+            },
+            {
+              "upstreamStartLine": 20,
+              "localStartLine": 20,
+              "lineCount": 8,
+              "eolNormalizedBytes": 282,
+              "sha256": "fb7debefbcea0c16bf94b75fb1ed76d64710027a8a6da08cd1655b0513233990"
+            },
+            {
+              "upstreamStartLine": 29,
+              "localStartLine": 29,
+              "lineCount": 69,
+              "eolNormalizedBytes": 2422,
+              "sha256": "113a00e6b0fcf43c120d531c41feae504484e5bdc86a8a2d1929b8a3a6c241e1"
+            },
+            {
+              "upstreamStartLine": 103,
+              "localStartLine": 100,
+              "lineCount": 51,
+              "eolNormalizedBytes": 2011,
+              "sha256": "aec005b95554c936d813dd8d84f4a59444c058619bd3e3beac9a2e08d79ef213"
+            },
+            {
+              "upstreamStartLine": 155,
+              "localStartLine": 152,
+              "lineCount": 75,
+              "eolNormalizedBytes": 3312,
+              "sha256": "d9373727ef9d768e22dca9d96a8ce8435f97a7418c2d480709e309df3da883ef"
+            },
+            {
+              "upstreamStartLine": 231,
+              "localStartLine": 228,
+              "lineCount": 51,
+              "eolNormalizedBytes": 2644,
+              "sha256": "d695ad19dd603dd9da36079f8baea198fcdeac8ad7600a9ccce09655f420e026"
+            },
+            {
+              "upstreamStartLine": 314,
+              "localStartLine": 279,
+              "lineCount": 99,
+              "eolNormalizedBytes": 4741,
+              "sha256": "58432af0cabf1fc7b884b963365afccf486d47379d28d95175029ccb9a733e05"
+            },
+            {
+              "upstreamStartLine": 414,
+              "localStartLine": 379,
+              "lineCount": 11,
+              "eolNormalizedBytes": 388,
+              "sha256": "f60d800f50e86b34d140f59946912d1aa63f8ff8ea4cedff47aca4bdc5565181"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/error.rs",
+          "localBytes": 9643,
+          "localLines": 315,
+          "localSha256": "466088048d9e877a9222f51d325ba2a2707c99de1729e432353881014e5d6303",
+          "upstreamBytes": 9636,
+          "upstreamLines": 315,
+          "upstreamSha256": "c11b0e188fa866c161308ccda02eed1386a5aa3cda871d5d14d98f77c046564e",
+          "matchedBlockLines": 309,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 7,
+              "localStartLine": 7,
+              "lineCount": 309,
+              "eolNormalizedBytes": 9439,
+              "sha256": "5c2c9d7a26630f1ddd63f5d177e2aa90c9654b99f0c2d5b881615e0c17b62752"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/llm/cloud.rs",
+          "localBytes": 10199,
+          "localLines": 301,
+          "localSha256": "6971d9025fe8f82a14975c95ffaef412c2119ba60666b3a26228e747c99efc46",
+          "upstreamBytes": 10199,
+          "upstreamLines": 301,
+          "upstreamSha256": "6971d9025fe8f82a14975c95ffaef412c2119ba60666b3a26228e747c99efc46",
+          "matchedBlockLines": 301,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 301,
+              "eolNormalizedBytes": 10198,
+              "sha256": "7d3d3984956b503ab1e6fb3848ea7068a66fcab58fa1b8d2a8a2d349a587678b"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/whisper_compat.rs",
+          "localBytes": 11024,
+          "localLines": 297,
+          "localSha256": "4d48caf093be044ff299cf44542dbc367e580ff9277eb4f19419c45c1fd2cd23",
+          "upstreamBytes": 11024,
+          "upstreamLines": 297,
+          "upstreamSha256": "4d48caf093be044ff299cf44542dbc367e580ff9277eb4f19419c45c1fd2cd23",
+          "matchedBlockLines": 297,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 297,
+              "eolNormalizedBytes": 11023,
+              "sha256": "40aba29da68f74454ba3a0edcad1aa3d76ff808bd1d3e5908279ff0eb6c07113"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/cloud.rs",
+          "localBytes": 10153,
+          "localLines": 293,
+          "localSha256": "cbd7f33619115fe8e9b0c9f81d0530ff64abd9aea469e5a60df68726139d09a9",
+          "upstreamBytes": 10153,
+          "upstreamLines": 293,
+          "upstreamSha256": "cbd7f33619115fe8e9b0c9f81d0530ff64abd9aea469e5a60df68726139d09a9",
+          "matchedBlockLines": 293,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 293,
+              "eolNormalizedBytes": 10152,
+              "sha256": "f61a37c26de8ebeab03e551eadab91e91ebeaa4f636c911bfa7d5d7e3a43cbfa"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/hotkey.rs",
+          "localBytes": 9259,
+          "localLines": 288,
+          "localSha256": "106b35b090544688a9475c4454b19cafcdedf1b372167c0aa3599d4776e04b84",
+          "upstreamBytes": 9259,
+          "upstreamLines": 288,
+          "upstreamSha256": "106b35b090544688a9475c4454b19cafcdedf1b372167c0aa3599d4776e04b84",
+          "matchedBlockLines": 288,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 288,
+              "eolNormalizedBytes": 9258,
+              "sha256": "5a107ca73c741c7a4da24cbc313eab830988ee60b4ee49a1f4e2e4845966cf87"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/llm/openai.rs",
+          "localBytes": 9637,
+          "localLines": 257,
+          "localSha256": "e445c681881a68259a7a886858fb57d15a6881d7142f911103f5466c8ad97a37",
+          "upstreamBytes": 9637,
+          "upstreamLines": 257,
+          "upstreamSha256": "e445c681881a68259a7a886858fb57d15a6881d7142f911103f5466c8ad97a37",
+          "matchedBlockLines": 257,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 257,
+              "eolNormalizedBytes": 9636,
+              "sha256": "770203b4be802e6cd78e8a84dbc57e1d1652bfad678f0abadf1e381d97b97881"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/tray.rs",
+          "localBytes": 8391,
+          "localLines": 247,
+          "localSha256": "58205c90bfc6cc968078f909bcecac9929a780d12f466d9854c97bba1ce2ec3f",
+          "upstreamBytes": 10649,
+          "upstreamLines": 309,
+          "upstreamSha256": "467c95dde1dfa501fb11f6a6c2812fb49769441015502dc865d52fa4b751433f",
+          "matchedBlockLines": 242,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 18,
+              "eolNormalizedBytes": 530,
+              "sha256": "649fa0f5e051dd050a85d53e6238ef211f08a74793717dad034d0546930e53b5"
+            },
+            {
+              "upstreamStartLine": 23,
+              "localStartLine": 19,
+              "lineCount": 12,
+              "eolNormalizedBytes": 407,
+              "sha256": "f82613bf56fc8135864ed0bb0d00d418a7b01f9a403484a1170c9ef96fd7e646"
+            },
+            {
+              "upstreamStartLine": 39,
+              "localStartLine": 31,
+              "lineCount": 9,
+              "eolNormalizedBytes": 424,
+              "sha256": "73c64c98195ddad3b4d5322995911e30d742f4a7daf72d23eb89ff6203cf1386"
+            },
+            {
+              "upstreamStartLine": 52,
+              "localStartLine": 40,
+              "lineCount": 9,
+              "eolNormalizedBytes": 367,
+              "sha256": "564f18646c6eec169f66bf6ec76fe721e8a524c41e3ac71bf633b1480cddc9ae"
+            },
+            {
+              "upstreamStartLine": 65,
+              "localStartLine": 49,
+              "lineCount": 9,
+              "eolNormalizedBytes": 410,
+              "sha256": "44b246e6dbbe5c7345d86c96f929e3c0b0d709fc8a61a5793fcfc539bdab88ab"
+            },
+            {
+              "upstreamStartLine": 78,
+              "localStartLine": 58,
+              "lineCount": 9,
+              "eolNormalizedBytes": 386,
+              "sha256": "a0a417f14ddd26567e3eea9c93a4668e2b3713d30cdbaecf1e57fd47b3b5b274"
+            },
+            {
+              "upstreamStartLine": 91,
+              "localStartLine": 67,
+              "lineCount": 9,
+              "eolNormalizedBytes": 386,
+              "sha256": "60d1ec6ff96482508586f4c4dbe64095c69962493f77617d4d1ce31d1d6387a1"
+            },
+            {
+              "upstreamStartLine": 104,
+              "localStartLine": 76,
+              "lineCount": 9,
+              "eolNormalizedBytes": 380,
+              "sha256": "7894dd05b2cd10f9a9c08b6dbb5a9638bb600045d0f92f91f317f26c9c171703"
+            },
+            {
+              "upstreamStartLine": 117,
+              "localStartLine": 85,
+              "lineCount": 9,
+              "eolNormalizedBytes": 467,
+              "sha256": "2e2dd3b653771238ecc02a06857263e0578d1f5519c773e136b7fd182e51d7e8"
+            },
+            {
+              "upstreamStartLine": 130,
+              "localStartLine": 94,
+              "lineCount": 9,
+              "eolNormalizedBytes": 400,
+              "sha256": "c91710f10e385b136149e22870001e27be5df14db8302e7addfbcfdd6d067113"
+            },
+            {
+              "upstreamStartLine": 143,
+              "localStartLine": 103,
+              "lineCount": 9,
+              "eolNormalizedBytes": 356,
+              "sha256": "0a864b52882a6f8c992168bb75d643793902444df2624195811ff5a41093476d"
+            },
+            {
+              "upstreamStartLine": 156,
+              "localStartLine": 112,
+              "lineCount": 81,
+              "eolNormalizedBytes": 2158,
+              "sha256": "b51da60a0bebb2160513bd5bb29b0282ffe962f0e42671e72e637d4187357e89"
+            },
+            {
+              "upstreamStartLine": 260,
+              "localStartLine": 198,
+              "lineCount": 50,
+              "eolNormalizedBytes": 1512,
+              "sha256": "6ddbe82a674c8bb70321db8dffeb5ddabc03aa1dccaa6df89679f3aad13fd0d5"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/audio/capture.rs",
+          "localBytes": 7232,
+          "localLines": 220,
+          "localSha256": "da23797e2ac275d415f2afe902217c2d84e3d379296f081924044eb1df3675a4",
+          "upstreamBytes": 7232,
+          "upstreamLines": 220,
+          "upstreamSha256": "da23797e2ac275d415f2afe902217c2d84e3d379296f081924044eb1df3675a4",
+          "matchedBlockLines": 220,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 220,
+              "eolNormalizedBytes": 7231,
+              "sha256": "3e2cf0d88e9c9cee5083b7ff76e693fb3b2018a617c3335a7899ded383b46ff9"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/deepgram.rs",
+          "localBytes": 6440,
+          "localLines": 212,
+          "localSha256": "df2b9e4891ba08fa79bee1b423d8772850f684dca8d0261205a2111cc391b9f4",
+          "upstreamBytes": 6440,
+          "upstreamLines": 212,
+          "upstreamSha256": "df2b9e4891ba08fa79bee1b423d8772850f684dca8d0261205a2111cc391b9f4",
+          "matchedBlockLines": 212,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 212,
+              "eolNormalizedBytes": 6439,
+              "sha256": "e2be2f9561af3b94181642683cb3d087b97b77aeb89811729455efc2d5336e7b"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/config.rs",
+          "localBytes": 7095,
+          "localLines": 211,
+          "localSha256": "f720916e34162ae82c44ec99216ae116479e36afa1830c10bee5d1c65f96cac9",
+          "upstreamBytes": 7100,
+          "upstreamLines": 211,
+          "upstreamSha256": "77aa609abf6a10612b7674989bec1ca0e1e435e13bee172d16ac8ec17bcfed31",
+          "matchedBlockLines": 206,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 6,
+              "localStartLine": 6,
+              "lineCount": 206,
+              "eolNormalizedBytes": 6907,
+              "sha256": "6b4b20485d56d4dd5bb2e9fa707bfbd6153fa971efe0a334e598b4562dedeb88"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/app_detector/mod.rs",
+          "localBytes": 4694,
+          "localLines": 183,
+          "localSha256": "07089a86a6e324cd173c798af431ec6631ac51b4bc4cff0a2d00b9524e13c606",
+          "upstreamBytes": 4694,
+          "upstreamLines": 183,
+          "upstreamSha256": "07089a86a6e324cd173c798af431ec6631ac51b4bc4cff0a2d00b9524e13c606",
+          "matchedBlockLines": 183,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 183,
+              "eolNormalizedBytes": 4693,
+              "sha256": "6c5032a723d4e81cd81fff21503518b494305bd64240b691e428b278ff1d7897"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/assemblyai.rs",
+          "localBytes": 5649,
+          "localLines": 164,
+          "localSha256": "439ed960a9c8a692904c32645d26471091bf750dbe6f142a4ecff3933cd2f3b6",
+          "upstreamBytes": 5649,
+          "upstreamLines": 164,
+          "upstreamSha256": "439ed960a9c8a692904c32645d26471091bf750dbe6f142a4ecff3933cd2f3b6",
+          "matchedBlockLines": 164,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 164,
+              "eolNormalizedBytes": 5648,
+              "sha256": "dc3f81cac96543222f49f07201ad6565baba95d50516eb9c2b6f570e69ceadb0"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/output/keyboard.rs",
+          "localBytes": 5217,
+          "localLines": 160,
+          "localSha256": "b962507fcd8f52b7a55de63ed232311cec44d7585b82a3b677428ea6a9c523ce",
+          "upstreamBytes": 5217,
+          "upstreamLines": 160,
+          "upstreamSha256": "b962507fcd8f52b7a55de63ed232311cec44d7585b82a3b677428ea6a9c523ce",
+          "matchedBlockLines": 160,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 160,
+              "eolNormalizedBytes": 5216,
+              "sha256": "eca72df4481676523256d0a5c3783fdd2196685dc1dc1708b261c0f5da0ebd66"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/mod.rs",
+          "localBytes": 3866,
+          "localLines": 119,
+          "localSha256": "dc87caaa43bf0d6809b8a5c7cf902ea226558023e43dfc7f309316e4562e2927",
+          "upstreamBytes": 3866,
+          "upstreamLines": 119,
+          "upstreamSha256": "dc87caaa43bf0d6809b8a5c7cf902ea226558023e43dfc7f309316e4562e2927",
+          "matchedBlockLines": 119,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 119,
+              "eolNormalizedBytes": 3865,
+              "sha256": "a4646083bce3d74bf1e69b674bdfbfd71f27b58d8790d61fcf6bdeb57c2438a5"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/output/clipboard.rs",
+          "localBytes": 3046,
+          "localLines": 85,
+          "localSha256": "b266b2d4c24fb5e8cf587977e362396d8beb85d813d40cbfed117ed56b317b70",
+          "upstreamBytes": 3046,
+          "upstreamLines": 85,
+          "upstreamSha256": "b266b2d4c24fb5e8cf587977e362396d8beb85d813d40cbfed117ed56b317b70",
+          "matchedBlockLines": 85,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 85,
+              "eolNormalizedBytes": 3045,
+              "sha256": "5ebbd6f8cd9140620834148709645b29d310f3310647c37605be6cdb0165a7b5"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/llm/mod.rs",
+          "localBytes": 2009,
+          "localLines": 81,
+          "localSha256": "82b67bb5f67b1e49c2a6f444aba761aea7129aa2cf0c60c80e39b7f57141b3cc",
+          "upstreamBytes": 2009,
+          "upstreamLines": 81,
+          "upstreamSha256": "82b67bb5f67b1e49c2a6f444aba761aea7129aa2cf0c60c80e39b7f57141b3cc",
+          "matchedBlockLines": 81,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 81,
+              "eolNormalizedBytes": 2008,
+              "sha256": "f307d44c023a1d5c8744201fd270aed4bbe0253f618d1527a38ab4658c16a06a"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/output/mod.rs",
+          "localBytes": 2192,
+          "localLines": 67,
+          "localSha256": "6065abfb22b3205247be63f51ea13af27a9b43c5c299875f1f48873715146c4b",
+          "upstreamBytes": 2192,
+          "upstreamLines": 67,
+          "upstreamSha256": "6065abfb22b3205247be63f51ea13af27a9b43c5c299875f1f48873715146c4b",
+          "matchedBlockLines": 67,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 67,
+              "eolNormalizedBytes": 2191,
+              "sha256": "020733ed337925ef910a8a4fd044d0c7b4a8b5e70801c6d1325e392e1ca41a4f"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/linux_x11.rs",
+          "localBytes": 1965,
+          "localLines": 70,
+          "localSha256": "aa395674b6098e8dab8354cbba44104cbf52fdf1c7e0d4c645d7a8c3f3103ac4",
+          "upstreamBytes": 1973,
+          "upstreamLines": 70,
+          "upstreamSha256": "a02f4ba0659f00b621527bbf6bb9a8ff51ab0f7fb0071f82aced7623321b2e9f",
+          "matchedBlockLines": 63,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 63,
+              "eolNormalizedBytes": 1727,
+              "sha256": "d4c8b087383d5a9329e5ee21b15434df4c11e58a03f6e151f38b0349864faf02"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/commands/config.rs",
+          "localBytes": 4854,
+          "localLines": 155,
+          "localSha256": "a6f0e0891f6709e5ed002406dd48196f6f9f0407ee6dca86f52be76ccd24d5f8",
+          "upstreamBytes": 4740,
+          "upstreamLines": 154,
+          "upstreamSha256": "89120073ec5f547bfd2ad39ac09ae3ee8cb41af50bffa49e58ac465061fe7e11",
+          "matchedBlockLines": 19,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 32,
+              "localStartLine": 110,
+              "lineCount": 19,
+              "eolNormalizedBytes": 534,
+              "sha256": "f740f5d9bd07fb5be095ce9deb2913c44efa5fa6afd6f955e58e7856155902ac"
+            }
+          ]
+        }
+      ],
+      "trackedAssets": [
+        {
+          "localPath": "docs/images/app-history.png",
+          "bytes": 36384,
+          "sha256": "224e5affc905c9bdc50ef04149dbd9b821c4d0d3088c4e9a96fd5843207fc656",
+          "upstreamExactPaths": [
+            "docs/images/app-history.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/app-main-light.png",
+          "bytes": 95538,
+          "sha256": "d8855137cd0ec4c35a3ccbbe02ad4dadeab29cbfa3c327a14bc604f0d4c3fde7",
+          "upstreamExactPaths": [
+            "docs/images/app-main-light.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/app-settings.png",
+          "bytes": 67230,
+          "sha256": "a7e7262b8c9920f4c3d3c3beb43aeb40382b44856e808c991f95245aec32543d",
+          "upstreamExactPaths": [
+            "docs/images/app-settings.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/demo.gif",
+          "bytes": 1400944,
+          "sha256": "22467a2302af6981b9565765c1e25a14fe1ecaf665b0c9b02c36d495167bfe32",
+          "upstreamExactPaths": [
+            "docs/images/demo.gif"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/voice-flow-demo.gif",
+          "bytes": 2392694,
+          "sha256": "56facafd490ec13fe888e503f343069889e50ddbb22960595cc060ea612ae638",
+          "upstreamExactPaths": [
+            "docs/images/voice-flow-demo.gif"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/website.png",
+          "bytes": 183550,
+          "sha256": "03c81682ab99639599a56a62e136da4555efd81b1c1abda4e7d5d7099b95766d",
+          "upstreamExactPaths": [
+            "docs/images/website.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "src-tauri/icons/128x128.png",
+          "bytes": 2330,
+          "sha256": "ecc22391480466660eb8a9bd54ed61da08e0ab5b95005955fbc78efe7a9eeb17",
+          "upstreamExactPaths": [
+            "src-tauri/icons/128x128.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "src-tauri/icons/128x128@2x.png",
+          "bytes": 4349,
+          "sha256": "d42a00ab187a0bdc4787939f1e0492b926351f6dedf8ab77dbd0dd76aa41a8a6",
+          "upstreamExactPaths": [
+            "src-tauri/icons/128x128@2x.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "src-tauri/icons/32x32.png",
+          "bytes": 722,
+          "sha256": "eb59e029f38ef263d89c04ae81b8603a70908d761332e9fe6e7528033101234c",
+          "upstreamExactPaths": [
+            "src-tauri/icons/32x32.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "src-tauri/icons/64x64.png",
+          "bytes": 1201,
+          "sha256": "f4e2dcd37005669c2948bc216b506fd598eeab15d508b626b52fde1586d8f3b0",
+          "upstreamExactPaths": [
+            "src-tauri/icons/64x64.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "src-tauri/icons/app-icon.svg",
+          "bytes": 929,
+          "sha256": "ca0ef8dde0024bd7d4c07ade7ffe7068ff211ca0fa1254d20f471d5e6b4ff7a5",
+          "upstreamExactPaths": [
+            "src-tauri/icons/app-icon.svg"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "src-tauri/icons/icon.icns",
+          "bytes": 52164,
+          "sha256": "52b35cdffca85680574d31b95afc73e7f2240deb05caf7189adaef824db6a8f4",
+          "upstreamExactPaths": [
+            "src-tauri/icons/icon.icns"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "src-tauri/icons/icon.ico",
+          "bytes": 9838,
+          "sha256": "7ab9214f55afc19ffdf39b674f92ee633b8221a64f8d134eafd9722509b53f7f",
+          "upstreamExactPaths": [
+            "src-tauri/icons/icon.ico"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "src-tauri/icons/icon.png",
+          "bytes": 8778,
+          "sha256": "dd23b5a80d555aaa2d732f65ca6c11c4d9b10f0d689d05c16e16c1d254bd3fe5",
+          "upstreamExactPaths": [
+            "src-tauri/icons/icon.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        }
+      ],
+      "exactUpstreamAssetCount": 14,
+      "sourcePathsAbsentFromUpstream": [
+        "src/echo/EchoApp.tsx",
+        "src/echo/EchoErrorBoundary.tsx",
+        "src/echo/echoConfig.ts",
+        "src/echo/echoModel.ts",
+        "src/echo/tauriBridge.ts",
+        "src/styles/styles/globals.css"
+      ],
+      "localLicenseBytesMatchUpstream": true
+    },
+    "a7ce82a89850a2527616c4cf950056258527b82a": {
+      "sourceFileCount": 280,
+      "exactFunctionalFiles": [
+        {
+          "localPath": "src-tauri/src/output/clipboard.rs",
+          "upstreamPaths": [
+            "src-tauri/src/output/clipboard.rs"
+          ],
+          "bytes": 3046,
+          "lines": 85,
+          "sha256": "b266b2d4c24fb5e8cf587977e362396d8beb85d813d40cbfed117ed56b317b70",
+          "gitBlobSha1": "531771c7f39bb8b57de918f468139a30051e496e"
+        },
+        {
+          "localPath": "src-tauri/src/output/keyboard.rs",
+          "upstreamPaths": [
+            "src-tauri/src/output/keyboard.rs"
+          ],
+          "bytes": 5217,
+          "lines": 160,
+          "sha256": "b962507fcd8f52b7a55de63ed232311cec44d7585b82a3b677428ea6a9c523ce",
+          "gitBlobSha1": "c5e0634bdcbbc253b9f1c3dcf1b57a3f49292726"
+        },
+        {
+          "localPath": "src-tauri/src/output/mod.rs",
+          "upstreamPaths": [
+            "src-tauri/src/output/mod.rs"
+          ],
+          "bytes": 2192,
+          "lines": 67,
+          "sha256": "6065abfb22b3205247be63f51ea13af27a9b43c5c299875f1f48873715146c4b",
+          "gitBlobSha1": "f967a4e3bbb472b410705375da8e5cdfd81bca70"
+        },
+        {
+          "localPath": "src-tauri/src/stt/assemblyai.rs",
+          "upstreamPaths": [
+            "src-tauri/src/stt/assemblyai.rs"
+          ],
+          "bytes": 5649,
+          "lines": 164,
+          "sha256": "439ed960a9c8a692904c32645d26471091bf750dbe6f142a4ecff3933cd2f3b6",
+          "gitBlobSha1": "86761fa66b9df07e614326f07eb62ab8bb896356"
+        },
+        {
+          "localPath": "src-tauri/src/stt/deepgram.rs",
+          "upstreamPaths": [
+            "src-tauri/src/stt/deepgram.rs"
+          ],
+          "bytes": 6440,
+          "lines": 212,
+          "sha256": "df2b9e4891ba08fa79bee1b423d8772850f684dca8d0261205a2111cc391b9f4",
+          "gitBlobSha1": "50161fd0f238ee494e98d79df142e7c83fbba584"
+        }
+      ],
+      "exactFunctionalFileCount": 5,
+      "exactFunctionalBytes": 22544,
+      "exactFunctionalLines": 688,
+      "genericExactFiles": [
+        {
+          "localPath": "src/vite-env.d.ts",
+          "upstreamPaths": [
+            "src/vite-env.d.ts"
+          ],
+          "bytes": 38,
+          "lines": 1,
+          "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+          "gitBlobSha1": "11f02fe2a0061d6e6e1f271b21da95423b448b32"
+        }
+      ],
+      "substantialOverlapFileCount": 38,
+      "substantialOverlapLines": 4085,
+      "substantialOverlaps": [
+        {
+          "path": "src-tauri/src/pipeline.rs",
+          "localBytes": 110498,
+          "localLines": 2798,
+          "localSha256": "9d9ba2f5828d135446f48d06ab13e646f27e0bdcc44dbb9169fd30c4b119b427",
+          "upstreamBytes": 54770,
+          "upstreamLines": 1453,
+          "upstreamSha256": "4c42b03327aac3b03eab40ad1e45a3b31ea2ea70a21933fcb140c767d52f9183",
+          "matchedBlockLines": 551,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 19,
+              "localStartLine": 43,
+              "lineCount": 50,
+              "eolNormalizedBytes": 1692,
+              "sha256": "3b52935818a1996ec31ac3c0806a50e5ebb9a18bae5243ee1e54211a3aec2784"
+            },
+            {
+              "upstreamStartLine": 71,
+              "localStartLine": 121,
+              "lineCount": 33,
+              "eolNormalizedBytes": 690,
+              "sha256": "231e74d552d8d3f0977f13303e1ec0087c7c355fa2f918c5e4deef2926a2f2e0"
+            },
+            {
+              "upstreamStartLine": 109,
+              "localStartLine": 164,
+              "lineCount": 11,
+              "eolNormalizedBytes": 246,
+              "sha256": "1210686327d5afb37a911f10b661c62922140f512535a4fc878b31d239a44875"
+            },
+            {
+              "upstreamStartLine": 138,
+              "localStartLine": 253,
+              "lineCount": 28,
+              "eolNormalizedBytes": 855,
+              "sha256": "7f352cefc7c9a845d8c01afc621d25ec413475d1baa04bb68c5ae53703a55226"
+            },
+            {
+              "upstreamStartLine": 171,
+              "localStartLine": 282,
+              "lineCount": 44,
+              "eolNormalizedBytes": 1236,
+              "sha256": "eccb72f7afa5b836c05056dc222347a15b0132f192b8a8f1638309280f6bd9fe"
+            },
+            {
+              "upstreamStartLine": 274,
+              "localStartLine": 565,
+              "lineCount": 9,
+              "eolNormalizedBytes": 318,
+              "sha256": "61dd13b2779fafe41063a5452203773e9c551074305ccaa3136a571c2c8e98eb"
+            },
+            {
+              "upstreamStartLine": 306,
+              "localStartLine": 637,
+              "lineCount": 10,
+              "eolNormalizedBytes": 253,
+              "sha256": "3f0fe097d0a9a00ccd892573173fee10be690a079f703bc50d5e26bedba092f4"
+            },
+            {
+              "upstreamStartLine": 320,
+              "localStartLine": 658,
+              "lineCount": 48,
+              "eolNormalizedBytes": 1871,
+              "sha256": "8304d61f7d8c3addcc0097845d6a04dbaf93329b95143d10be57dcb5f919fd9d"
+            },
+            {
+              "upstreamStartLine": 407,
+              "localStartLine": 763,
+              "lineCount": 8,
+              "eolNormalizedBytes": 229,
+              "sha256": "7b4a2ab93d71842468fd8cc85619cdf0a614e1c78be546d8f317656edb8b27d1"
+            },
+            {
+              "upstreamStartLine": 417,
+              "localStartLine": 823,
+              "lineCount": 13,
+              "eolNormalizedBytes": 441,
+              "sha256": "4f47eba6ca7bfa979273986807c48bda01dc8f2585f4ba05894214158a889783"
+            },
+            {
+              "upstreamStartLine": 430,
+              "localStartLine": 839,
+              "lineCount": 13,
+              "eolNormalizedBytes": 463,
+              "sha256": "635e1c55d39270d0b259224be9519d3fc1f30863515d6a97451eed9ac2d829d6"
+            },
+            {
+              "upstreamStartLine": 444,
+              "localStartLine": 854,
+              "lineCount": 19,
+              "eolNormalizedBytes": 711,
+              "sha256": "8379c32ef0a281b76499a953d3d86ac89c097aee97e0df3010ec9930054002cd"
+            },
+            {
+              "upstreamStartLine": 531,
+              "localStartLine": 991,
+              "lineCount": 13,
+              "eolNormalizedBytes": 513,
+              "sha256": "1b96e330c8bec1929bb4d3b165698fb8d9d89afd97f056e38d30addacd682374"
+            },
+            {
+              "upstreamStartLine": 653,
+              "localStartLine": 1099,
+              "lineCount": 6,
+              "eolNormalizedBytes": 309,
+              "sha256": "7cf97be5fc036bcb3825d9c39957429d32d75d37ac6d21f00a3d4347970a4ea5"
+            },
+            {
+              "upstreamStartLine": 691,
+              "localStartLine": 1243,
+              "lineCount": 18,
+              "eolNormalizedBytes": 672,
+              "sha256": "b811cab76449bf3bee2f1854bd9ca484a0667f70e8bb4010a2a57530643fe68a"
+            },
+            {
+              "upstreamStartLine": 714,
+              "localStartLine": 1316,
+              "lineCount": 14,
+              "eolNormalizedBytes": 685,
+              "sha256": "9d558b2cd9db9516f8213cbae62962fa2fad88ab775c40748314181310af863c"
+            },
+            {
+              "upstreamStartLine": 753,
+              "localStartLine": 1371,
+              "lineCount": 10,
+              "eolNormalizedBytes": 420,
+              "sha256": "698fa4ad816c26be9dd1d16d98ed2c7921ccd7fb9c54ccc62eb0f3fefcba2a02"
+            },
+            {
+              "upstreamStartLine": 799,
+              "localStartLine": 1449,
+              "lineCount": 6,
+              "eolNormalizedBytes": 353,
+              "sha256": "bf5c6e68a9dd1b319a7ea9b4a878a1945954b68c166d7a1faff065787d700dc2"
+            },
+            {
+              "upstreamStartLine": 814,
+              "localStartLine": 1480,
+              "lineCount": 10,
+              "eolNormalizedBytes": 273,
+              "sha256": "48a8572044318b1a1eaa6f2e2a36ed0a12dfb5b63c43407147f3ec1ed53c4623"
+            },
+            {
+              "upstreamStartLine": 912,
+              "localStartLine": 1621,
+              "lineCount": 12,
+              "eolNormalizedBytes": 400,
+              "sha256": "5373c8b0c508aec0573b0cb0fe9de12d6c70b032aad879d6dd9108e3f8303f59"
+            },
+            {
+              "upstreamStartLine": 955,
+              "localStartLine": 1736,
+              "lineCount": 8,
+              "eolNormalizedBytes": 243,
+              "sha256": "832cdd26ad825d758668546572f236a99e9ab6e26e3b3554b0c6402980ba6e71"
+            },
+            {
+              "upstreamStartLine": 984,
+              "localStartLine": 1776,
+              "lineCount": 30,
+              "eolNormalizedBytes": 1047,
+              "sha256": "194af4ecd6cb844929f633703f5d5bd2e2c5eb2e4f8c0ec97eeda638a9a733ca"
+            },
+            {
+              "upstreamStartLine": 1037,
+              "localStartLine": 1846,
+              "lineCount": 10,
+              "eolNormalizedBytes": 378,
+              "sha256": "4e1c6a4083c6ffb406403f550e8110d7c095e3e9eb9b7b9cff7c14f04464858d"
+            },
+            {
+              "upstreamStartLine": 1079,
+              "localStartLine": 1898,
+              "lineCount": 7,
+              "eolNormalizedBytes": 223,
+              "sha256": "dc5c0bb451db8e50a7d46de060719cf85d1045fb3afd4b419716fe87dff2a090"
+            },
+            {
+              "upstreamStartLine": 1125,
+              "localStartLine": 2018,
+              "lineCount": 11,
+              "eolNormalizedBytes": 321,
+              "sha256": "a1925c4fb3c5a4f42577d4ddee0d685e4fd4439b3fd6ffdf5fef46a81a5ef5cd"
+            },
+            {
+              "upstreamStartLine": 1282,
+              "localStartLine": 2312,
+              "lineCount": 6,
+              "eolNormalizedBytes": 543,
+              "sha256": "80f910cafd20d59974e44bd78864d0fe34a2b8bce866e98e79938039eaf1b781"
+            },
+            {
+              "upstreamStartLine": 1288,
+              "localStartLine": 2322,
+              "lineCount": 9,
+              "eolNormalizedBytes": 303,
+              "sha256": "4e6e29b79daa4bc21898c3fdf3e13f5f3040b47d70ef836a1f2b3ef2fa4f5f66"
+            },
+            {
+              "upstreamStartLine": 1299,
+              "localStartLine": 2336,
+              "lineCount": 8,
+              "eolNormalizedBytes": 279,
+              "sha256": "ddb38101ae699d5db3b9f99fdec58093a1b7faa2b82e4fa5c270fd65d1f4c872"
+            },
+            {
+              "upstreamStartLine": 1316,
+              "localStartLine": 2347,
+              "lineCount": 12,
+              "eolNormalizedBytes": 266,
+              "sha256": "e118f98a452ee36535e4b3a2ec232a2267ee24d92ce46fcdfe2ccecf76b0c16d"
+            },
+            {
+              "upstreamStartLine": 1328,
+              "localStartLine": 2431,
+              "lineCount": 12,
+              "eolNormalizedBytes": 353,
+              "sha256": "7358d8ff002b0a0106ff698d004c02527b612e0f7774ae9aaf920fae4c2a6f46"
+            },
+            {
+              "upstreamStartLine": 1340,
+              "localStartLine": 2510,
+              "lineCount": 20,
+              "eolNormalizedBytes": 581,
+              "sha256": "bf508d84523af88b6811d6f3498f1dedf9a26529e59552c20ff886aeff04c49f"
+            },
+            {
+              "upstreamStartLine": 1360,
+              "localStartLine": 2696,
+              "lineCount": 33,
+              "eolNormalizedBytes": 947,
+              "sha256": "62918de4f73bc4bcc0e1d29c8047bf1355c64010ebe9d954699ee625e809917e"
+            },
+            {
+              "upstreamStartLine": 1427,
+              "localStartLine": 2775,
+              "lineCount": 10,
+              "eolNormalizedBytes": 271,
+              "sha256": "e72b2e3579e69dd72d1b12834ec5f8c6884ffd129648e92f809c41d84bc4dd27"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/llm/prompt.rs",
+          "localBytes": 19225,
+          "localLines": 431,
+          "localSha256": "a0c0c27a5696b2e61bf3d23a867b381602dc746d95e9ba4781651380557dc27a",
+          "upstreamBytes": 18271,
+          "upstreamLines": 416,
+          "upstreamSha256": "aab8d6fc204d12a7f33e3a4c4aa9f37d217bbf3d996e7ec4e6ae697ca56a8bc0",
+          "matchedBlockLines": 364,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 7,
+              "localStartLine": 7,
+              "lineCount": 33,
+              "eolNormalizedBytes": 2400,
+              "sha256": "5a37db04768b145cb1cf2d08e01229692391feebcb32485d8e5dd35c998e73cb"
+            },
+            {
+              "upstreamStartLine": 41,
+              "localStartLine": 41,
+              "lineCount": 12,
+              "eolNormalizedBytes": 1763,
+              "sha256": "5a6e50f85ed012a9d37fdeee4a71b46f90cf2149eea95166291bab0953c6c809"
+            },
+            {
+              "upstreamStartLine": 53,
+              "localStartLine": 97,
+              "lineCount": 30,
+              "eolNormalizedBytes": 981,
+              "sha256": "4c6e8d7df6c1075866a0ca3504e00168f359123db67852ce72b7f3a8a4a76898"
+            },
+            {
+              "upstreamStartLine": 124,
+              "localStartLine": 139,
+              "lineCount": 93,
+              "eolNormalizedBytes": 2857,
+              "sha256": "030a47cad95b231d6e12fa4a5c1b536a76d2c4c565637ec22083f871adc6018e"
+            },
+            {
+              "upstreamStartLine": 220,
+              "localStartLine": 235,
+              "lineCount": 109,
+              "eolNormalizedBytes": 4253,
+              "sha256": "1dc4c78256de5712926db0cc965f167e65c34a9fdaf05072f04affe6de960da9"
+            },
+            {
+              "upstreamStartLine": 330,
+              "localStartLine": 345,
+              "lineCount": 87,
+              "eolNormalizedBytes": 3226,
+              "sha256": "e8268e88c3b4e0a714f4eeaf8b79c2765121717e0890089bbd76d576b2783015"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/error.rs",
+          "localBytes": 9643,
+          "localLines": 315,
+          "localSha256": "466088048d9e877a9222f51d325ba2a2707c99de1729e432353881014e5d6303",
+          "upstreamBytes": 9636,
+          "upstreamLines": 315,
+          "upstreamSha256": "c11b0e188fa866c161308ccda02eed1386a5aa3cda871d5d14d98f77c046564e",
+          "matchedBlockLines": 309,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 7,
+              "localStartLine": 7,
+              "lineCount": 309,
+              "eolNormalizedBytes": 9439,
+              "sha256": "5c2c9d7a26630f1ddd63f5d177e2aa90c9654b99f0c2d5b881615e0c17b62752"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/whisper_compat.rs",
+          "localBytes": 11066,
+          "localLines": 298,
+          "localSha256": "89b326afe45a0a5cce41b03251d7ed914abaee769768a2dfbb6dabd866ae4835",
+          "upstreamBytes": 11024,
+          "upstreamLines": 297,
+          "upstreamSha256": "4d48caf093be044ff299cf44542dbc367e580ff9277eb4f19419c45c1fd2cd23",
+          "matchedBlockLines": 296,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 18,
+              "eolNormalizedBytes": 545,
+              "sha256": "31c92c7f5c853355021023238067599ccfd33bb16bd7d181462eabed28a48c6f"
+            },
+            {
+              "upstreamStartLine": 20,
+              "localStartLine": 20,
+              "lineCount": 253,
+              "eolNormalizedBytes": 9717,
+              "sha256": "cae8507cbf9ca5aaf5e3d5e568715e4a41c5d69be0afc7e051a306ae4c04a84a"
+            },
+            {
+              "upstreamStartLine": 273,
+              "localStartLine": 274,
+              "lineCount": 25,
+              "eolNormalizedBytes": 691,
+              "sha256": "a75d2cb1b017826529a2ba3c3da6230b6a9b9c0937112260117a50b93fd67972"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/hotkey.rs",
+          "localBytes": 22242,
+          "localLines": 645,
+          "localSha256": "b840ffe8012375af138d78697df2b83455d5f0dfd4d6b995b60e5bac63ab5697",
+          "upstreamBytes": 9259,
+          "upstreamLines": 288,
+          "upstreamSha256": "106b35b090544688a9475c4454b19cafcdedf1b372167c0aa3599d4776e04b84",
+          "matchedBlockLines": 230,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 7,
+              "localStartLine": 33,
+              "lineCount": 16,
+              "eolNormalizedBytes": 431,
+              "sha256": "ad0f994384910cd8ab1186c2d5d7b7b82219d5c3e999f088bfde619c559727a5"
+            },
+            {
+              "upstreamStartLine": 74,
+              "localStartLine": 352,
+              "lineCount": 214,
+              "eolNormalizedBytes": 6235,
+              "sha256": "cefaebf4bbca566d2b934b21ae4409f904f1fb56cce0b90cab44ebd04d43bbc3"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/llm/openai.rs",
+          "localBytes": 20222,
+          "localLines": 566,
+          "localSha256": "8a6991a3252f3dc471879a2c36bde785985cd287732ad6e7737f2360e289d330",
+          "upstreamBytes": 9637,
+          "upstreamLines": 257,
+          "upstreamSha256": "e445c681881a68259a7a886858fb57d15a6881d7142f911103f5466c8ad97a37",
+          "matchedBlockLines": 223,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 10,
+              "eolNormalizedBytes": 249,
+              "sha256": "1c0afa3a7848ef660abce6849097efd4438a1438e99c6818ab8c91ed0db152f2"
+            },
+            {
+              "upstreamStartLine": 28,
+              "localStartLine": 260,
+              "lineCount": 36,
+              "eolNormalizedBytes": 1117,
+              "sha256": "6cca7fd7db45c1f11504e4056199a659daaf9d0a51ccb1e21c7c117f76a9775a"
+            },
+            {
+              "upstreamStartLine": 67,
+              "localStartLine": 308,
+              "lineCount": 27,
+              "eolNormalizedBytes": 1141,
+              "sha256": "80a93e2cc8c02a6bdc3ae4bb0d6345fcfd042350dd4c13c22d91e64f5b429a21"
+            },
+            {
+              "upstreamStartLine": 104,
+              "localStartLine": 346,
+              "lineCount": 25,
+              "eolNormalizedBytes": 1173,
+              "sha256": "5ee6952951d8af19c2df888a00bfa992223fa12668d42e7a2f48af381b1dff60"
+            },
+            {
+              "upstreamStartLine": 129,
+              "localStartLine": 382,
+              "lineCount": 107,
+              "eolNormalizedBytes": 4642,
+              "sha256": "33f60f90e7217069c73323591b50ad05b2a479794aea7250a0ab2c9622e0f7f3"
+            },
+            {
+              "upstreamStartLine": 240,
+              "localStartLine": 490,
+              "lineCount": 18,
+              "eolNormalizedBytes": 359,
+              "sha256": "cc0fe27d6f3abfea67e4190f7719bbfe3a87b1c01c3d0c6e9ec65a2943a790a2"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/deepgram.rs",
+          "localBytes": 6440,
+          "localLines": 212,
+          "localSha256": "df2b9e4891ba08fa79bee1b423d8772850f684dca8d0261205a2111cc391b9f4",
+          "upstreamBytes": 6440,
+          "upstreamLines": 212,
+          "upstreamSha256": "df2b9e4891ba08fa79bee1b423d8772850f684dca8d0261205a2111cc391b9f4",
+          "matchedBlockLines": 212,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 212,
+              "eolNormalizedBytes": 6439,
+              "sha256": "e2be2f9561af3b94181642683cb3d087b97b77aeb89811729455efc2d5336e7b"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/tray.rs",
+          "localBytes": 14991,
+          "localLines": 410,
+          "localSha256": "df07556c52ba4c2294d298a76c2eccb9cb07f6c54e50c2329f26ba875bfd45ef",
+          "upstreamBytes": 10649,
+          "upstreamLines": 309,
+          "upstreamSha256": "467c95dde1dfa501fb11f6a6c2812fb49769441015502dc865d52fa4b751433f",
+          "matchedBlockLines": 199,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 11,
+              "localStartLine": 12,
+              "lineCount": 9,
+              "eolNormalizedBytes": 261,
+              "sha256": "b6bc00f9806aed59cca0d8872489f6812afff59f12096302123658c06f7a2635"
+            },
+            {
+              "upstreamStartLine": 23,
+              "localStartLine": 23,
+              "lineCount": 13,
+              "eolNormalizedBytes": 439,
+              "sha256": "4063088f907a58a8c6fead8989bac0229c6934c2829ea97212d2e32de2679483"
+            },
+            {
+              "upstreamStartLine": 39,
+              "localStartLine": 38,
+              "lineCount": 10,
+              "eolNormalizedBytes": 456,
+              "sha256": "c05b93fab5c5a435fe688069bc6303691051c900cd4c3369b97e6110a042f640"
+            },
+            {
+              "upstreamStartLine": 52,
+              "localStartLine": 50,
+              "lineCount": 10,
+              "eolNormalizedBytes": 399,
+              "sha256": "42aa303d8dcb5a3d9464ec84c6559b92de7f1a5483f1cb441bbcc4608c88b7fd"
+            },
+            {
+              "upstreamStartLine": 65,
+              "localStartLine": 62,
+              "lineCount": 10,
+              "eolNormalizedBytes": 447,
+              "sha256": "d9127afc465cd891aa8b69591f7940c897cf075b08dcf7c80ea2195efd835d9e"
+            },
+            {
+              "upstreamStartLine": 78,
+              "localStartLine": 74,
+              "lineCount": 10,
+              "eolNormalizedBytes": 425,
+              "sha256": "96c995d8691f9c0230f3135aed8c795eb58e037cf6d4612f7cf1260ca415df74"
+            },
+            {
+              "upstreamStartLine": 91,
+              "localStartLine": 86,
+              "lineCount": 10,
+              "eolNormalizedBytes": 426,
+              "sha256": "fa777718d71de4928403257db8b0c27b270c64ddd08b5afc963f3d10e66cf12d"
+            },
+            {
+              "upstreamStartLine": 104,
+              "localStartLine": 98,
+              "lineCount": 10,
+              "eolNormalizedBytes": 421,
+              "sha256": "596fe74122810099f960c204fa2c99ec4090883aa7e10a253d0303e1497f071d"
+            },
+            {
+              "upstreamStartLine": 117,
+              "localStartLine": 110,
+              "lineCount": 10,
+              "eolNormalizedBytes": 511,
+              "sha256": "9f73e325051d4d6b9c0f6373d259511b367fd86f4eb074b35538bbf094e78bed"
+            },
+            {
+              "upstreamStartLine": 130,
+              "localStartLine": 122,
+              "lineCount": 10,
+              "eolNormalizedBytes": 438,
+              "sha256": "774ce77eca498fb6f41d9a82a9895fb1aee1de6d350d8ff0a79c8c3cd6bf5a02"
+            },
+            {
+              "upstreamStartLine": 143,
+              "localStartLine": 134,
+              "lineCount": 10,
+              "eolNormalizedBytes": 390,
+              "sha256": "454d1005543a915d414e9cc3c13ab4273c400b5def90cd0f21730d4f5ed502d6"
+            },
+            {
+              "upstreamStartLine": 190,
+              "localStartLine": 175,
+              "lineCount": 49,
+              "eolNormalizedBytes": 1341,
+              "sha256": "6554fc9c3f1daaa5e1c7f339cf95277785c95d7354567c5d3df1234999e2783b"
+            },
+            {
+              "upstreamStartLine": 243,
+              "localStartLine": 233,
+              "lineCount": 11,
+              "eolNormalizedBytes": 277,
+              "sha256": "f8c6095fc946a4339307612ff8ac833a4600f8b5e63675118a3c70318765d8ec"
+            },
+            {
+              "upstreamStartLine": 262,
+              "localStartLine": 365,
+              "lineCount": 14,
+              "eolNormalizedBytes": 488,
+              "sha256": "ab2dc6462633695085845efdbbce1ae2d56b9ba482e2346c9b3f5192dc29d3ac"
+            },
+            {
+              "upstreamStartLine": 283,
+              "localStartLine": 390,
+              "lineCount": 13,
+              "eolNormalizedBytes": 318,
+              "sha256": "e85df675e4a8ef65d03ca570615584ddedaa2938383c466b43dee89333e12736"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/config.rs",
+          "localBytes": 8313,
+          "localLines": 245,
+          "localSha256": "4dd3929c50e2a57c3cc06e294b40846467726722bb117b35f64a1756fee8a2b6",
+          "upstreamBytes": 7100,
+          "upstreamLines": 211,
+          "upstreamSha256": "77aa609abf6a10612b7674989bec1ca0e1e435e13bee172d16ac8ec17bcfed31",
+          "matchedBlockLines": 191,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 15,
+              "localStartLine": 17,
+              "lineCount": 56,
+              "eolNormalizedBytes": 2033,
+              "sha256": "b17bf7eb18bb56d23ced646a533d9d1f3af056c1a303cd0ef73bfa565fb282bb"
+            },
+            {
+              "upstreamStartLine": 71,
+              "localStartLine": 93,
+              "lineCount": 34,
+              "eolNormalizedBytes": 1063,
+              "sha256": "e40008433b29ba20244b7adc393b71ba80c3b5bf808c0af53e5e22118bc440cf"
+            },
+            {
+              "upstreamStartLine": 106,
+              "localStartLine": 128,
+              "lineCount": 54,
+              "eolNormalizedBytes": 1537,
+              "sha256": "fc2814ae45e5797e7c3024c7376b9140ba2dda1b773a241e0f7f4f136c8766b9"
+            },
+            {
+              "upstreamStartLine": 165,
+              "localStartLine": 182,
+              "lineCount": 26,
+              "eolNormalizedBytes": 942,
+              "sha256": "4aaf083ccd8b6754a42ae2a1cb11ef110ea4afdef58b98114ab51a45afc1cabe"
+            },
+            {
+              "upstreamStartLine": 191,
+              "localStartLine": 225,
+              "lineCount": 21,
+              "eolNormalizedBytes": 725,
+              "sha256": "71468b125bb716596edf46b4265600f40029f9c84d775aa0a4263313c396bcee"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/assemblyai.rs",
+          "localBytes": 5649,
+          "localLines": 164,
+          "localSha256": "439ed960a9c8a692904c32645d26471091bf750dbe6f142a4ecff3933cd2f3b6",
+          "upstreamBytes": 5649,
+          "upstreamLines": 164,
+          "upstreamSha256": "439ed960a9c8a692904c32645d26471091bf750dbe6f142a4ecff3933cd2f3b6",
+          "matchedBlockLines": 164,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 164,
+              "eolNormalizedBytes": 5648,
+              "sha256": "dc3f81cac96543222f49f07201ad6565baba95d50516eb9c2b6f570e69ceadb0"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/output/keyboard.rs",
+          "localBytes": 5217,
+          "localLines": 160,
+          "localSha256": "b962507fcd8f52b7a55de63ed232311cec44d7585b82a3b677428ea6a9c523ce",
+          "upstreamBytes": 5217,
+          "upstreamLines": 160,
+          "upstreamSha256": "b962507fcd8f52b7a55de63ed232311cec44d7585b82a3b677428ea6a9c523ce",
+          "matchedBlockLines": 160,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 160,
+              "eolNormalizedBytes": 5216,
+              "sha256": "eca72df4481676523256d0a5c3783fdd2196685dc1dc1708b261c0f5da0ebd66"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/app_detector/mod.rs",
+          "localBytes": 8291,
+          "localLines": 320,
+          "localSha256": "b35f6cc7075d63d9ca54cd494c359152c2e4b57fcd9b3dffa0c7111f159334af",
+          "upstreamBytes": 4694,
+          "upstreamLines": 183,
+          "upstreamSha256": "07089a86a6e324cd173c798af431ec6631ac51b4bc4cff0a2d00b9524e13c606",
+          "matchedBlockLines": 134,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 9,
+              "eolNormalizedBytes": 218,
+              "sha256": "414554d08cabc41dde3b05c3f8388a5c13c00dcd4c177e70daafd4aee585c84d"
+            },
+            {
+              "upstreamStartLine": 10,
+              "localStartLine": 24,
+              "lineCount": 13,
+              "eolNormalizedBytes": 255,
+              "sha256": "203186f876c11bbfd7b3cc65215d83f0481c8dcac058a9cd2c9d1cd3bc4e3aa0"
+            },
+            {
+              "upstreamStartLine": 34,
+              "localStartLine": 58,
+              "lineCount": 45,
+              "eolNormalizedBytes": 1158,
+              "sha256": "4564248cbcadc5a1b395ae578ed69b6c11d16c573e26d23de83b92a2c64d2143"
+            },
+            {
+              "upstreamStartLine": 117,
+              "localStartLine": 225,
+              "lineCount": 67,
+              "eolNormalizedBytes": 1688,
+              "sha256": "1840110c7a19678b5987611c4c8badb7c569647f9f76e52bb0f2f2a7b7e05e38"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/commands/stt.rs",
+          "localBytes": 6234,
+          "localLines": 178,
+          "localSha256": "bc53904777d0f34035d1399cfb96b4254232cf14a488a8e1c098fc38bec74050",
+          "upstreamBytes": 9068,
+          "upstreamLines": 259,
+          "upstreamSha256": "c5341fc977fb40183d931ce7947c8c9bd248aa04b9d7e41132e01bef5d38b369",
+          "matchedBlockLines": 115,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 4,
+              "localStartLine": 2,
+              "lineCount": 17,
+              "eolNormalizedBytes": 564,
+              "sha256": "afe7261d00b4bc95dd435c81421d3088c21a300eef36738ed1181399b3b4a81a"
+            },
+            {
+              "upstreamStartLine": 114,
+              "localStartLine": 45,
+              "lineCount": 31,
+              "eolNormalizedBytes": 864,
+              "sha256": "dc92dd251bfd73b45377faff651905a8935979e0bfc02c0eaf3e1575b4264aa4"
+            },
+            {
+              "upstreamStartLine": 193,
+              "localStartLine": 102,
+              "lineCount": 25,
+              "eolNormalizedBytes": 1013,
+              "sha256": "1046e8c9fa01dee7baeb78200416ab43d333c6f41f8dd3f07b8b68df9ba86fc5"
+            },
+            {
+              "upstreamStartLine": 218,
+              "localStartLine": 137,
+              "lineCount": 42,
+              "eolNormalizedBytes": 1629,
+              "sha256": "88b9b1a999c0a016996f532c6e49fd5ae209f9b6d3982c4e874cd963c911fcc5"
+            }
+          ]
+        },
+        {
+          "path": "src/lib/capsuleError.ts",
+          "localBytes": 4413,
+          "localLines": 157,
+          "localSha256": "676a0e05a133dfee80d8bc323f4ca4220007ccf0972fc59c0954ac86e611bfbd",
+          "upstreamBytes": 2657,
+          "upstreamLines": 107,
+          "upstreamSha256": "445aea492b386643ba86bcd35d3d19ebcb4807a7ca6f882d08f18b66de9de6e3",
+          "matchedBlockLines": 104,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 19,
+              "eolNormalizedBytes": 404,
+              "sha256": "e404e3c0571f7b557c36e9b120c4198bf23d464e31b3b8a9037f22709bd516f3"
+            },
+            {
+              "upstreamStartLine": 23,
+              "localStartLine": 32,
+              "lineCount": 13,
+              "eolNormalizedBytes": 305,
+              "sha256": "67ae1daf736789d9e4bd0392baaf9fb657aa6da2614aadc036c1815046686c4d"
+            },
+            {
+              "upstreamStartLine": 36,
+              "localStartLine": 55,
+              "lineCount": 72,
+              "eolNormalizedBytes": 1873,
+              "sha256": "86ccffc6ba66b052a6e8ba82c7d46868312cb5e82d1bd8334c15448e8169625d"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/stt/mod.rs",
+          "localBytes": 4045,
+          "localLines": 121,
+          "localSha256": "a68189eeff816a057398b2c0c97cf0aa0892698b574e9ee3d55c4545cd251581",
+          "upstreamBytes": 3866,
+          "upstreamLines": 119,
+          "upstreamSha256": "dc87caaa43bf0d6809b8a5c7cf902ea226558023e43dfc7f309316e4562e2927",
+          "matchedBlockLines": 89,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 5,
+              "localStartLine": 5,
+              "lineCount": 15,
+              "eolNormalizedBytes": 372,
+              "sha256": "1dcc1ab3f5d7a2822928b2dda4f036dacf5cc7bda5a29c13e42acd4027242914"
+            },
+            {
+              "upstreamStartLine": 29,
+              "localStartLine": 31,
+              "lineCount": 29,
+              "eolNormalizedBytes": 908,
+              "sha256": "7291f1fbc3832b3e1159490b0c15ec7eaf01ac59ff5ad43e35c612b7d08dbbd7"
+            },
+            {
+              "upstreamStartLine": 70,
+              "localStartLine": 66,
+              "lineCount": 45,
+              "eolNormalizedBytes": 1637,
+              "sha256": "65c1d6a52c864e59595e4d0fde2f3aa6bc0bf4f142de24e5f0a1382d9b40698b"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/output/clipboard.rs",
+          "localBytes": 3046,
+          "localLines": 85,
+          "localSha256": "b266b2d4c24fb5e8cf587977e362396d8beb85d813d40cbfed117ed56b317b70",
+          "upstreamBytes": 3046,
+          "upstreamLines": 85,
+          "upstreamSha256": "b266b2d4c24fb5e8cf587977e362396d8beb85d813d40cbfed117ed56b317b70",
+          "matchedBlockLines": 85,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 85,
+              "eolNormalizedBytes": 3045,
+              "sha256": "5ebbd6f8cd9140620834148709645b29d310f3310647c37605be6cdb0165a7b5"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/llm/mod.rs",
+          "localBytes": 1973,
+          "localLines": 84,
+          "localSha256": "7488d362ea52f8d73993a7e9b57fdedf82e4d55ab2fe86730b70e3379ace9fd9",
+          "upstreamBytes": 2009,
+          "upstreamLines": 81,
+          "upstreamSha256": "82b67bb5f67b1e49c2a6f444aba761aea7129aa2cf0c60c80e39b7f57141b3cc",
+          "matchedBlockLines": 73,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 2,
+              "localStartLine": 1,
+              "lineCount": 73,
+              "eolNormalizedBytes": 1663,
+              "sha256": "75fb0cfa9101eea25fb435425a632d0a1e1b4f2e6711fda56a0e6a6e41c8997b"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/output/mod.rs",
+          "localBytes": 2192,
+          "localLines": 67,
+          "localSha256": "6065abfb22b3205247be63f51ea13af27a9b43c5c299875f1f48873715146c4b",
+          "upstreamBytes": 2192,
+          "upstreamLines": 67,
+          "upstreamSha256": "6065abfb22b3205247be63f51ea13af27a9b43c5c299875f1f48873715146c4b",
+          "matchedBlockLines": 67,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 67,
+              "eolNormalizedBytes": 2191,
+              "sha256": "020733ed337925ef910a8a4fd044d0c7b4a8b5e70801c6d1325e392e1ca41a4f"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/linux_x11.rs",
+          "localBytes": 1965,
+          "localLines": 70,
+          "localSha256": "aa395674b6098e8dab8354cbba44104cbf52fdf1c7e0d4c645d7a8c3f3103ac4",
+          "upstreamBytes": 1973,
+          "upstreamLines": 70,
+          "upstreamSha256": "a02f4ba0659f00b621527bbf6bb9a8ff51ab0f7fb0071f82aced7623321b2e9f",
+          "matchedBlockLines": 63,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 63,
+              "eolNormalizedBytes": 1727,
+              "sha256": "d4c8b087383d5a9329e5ee21b15434df4c11e58a03f6e151f38b0349864faf02"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/lib.rs",
+          "localBytes": 9427,
+          "localLines": 230,
+          "localSha256": "6c6ffeb0eda2838f5a4d8a4c21575ba992ddb5cbf577eec958543e6b929457e4",
+          "upstreamBytes": 19423,
+          "upstreamLines": 452,
+          "upstreamSha256": "3d4771f0e0467817c977bc4f4ac8a8d9e5b5796779d8d3edbd8516143a831116",
+          "matchedBlockLines": 58,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 69,
+              "localStartLine": 50,
+              "lineCount": 29,
+              "eolNormalizedBytes": 1031,
+              "sha256": "50d3c19ce2a9e0618d98b36670eb498a2d9ac19231028af04b10d317bb74dc68"
+            },
+            {
+              "upstreamStartLine": 103,
+              "localStartLine": 81,
+              "lineCount": 18,
+              "eolNormalizedBytes": 638,
+              "sha256": "bd38508ba506de447edbb6b38d3c24a03004c530c6c727176921d5baf5c03281"
+            },
+            {
+              "upstreamStartLine": 417,
+              "localStartLine": 146,
+              "lineCount": 11,
+              "eolNormalizedBytes": 358,
+              "sha256": "5dc911891c5074a0e5878e6204aa3e6a01be4bd3b4df39748600a35e919df441"
+            }
+          ]
+        },
+        {
+          "path": "src/hooks/useCapsuleResize.ts",
+          "localBytes": 5524,
+          "localLines": 169,
+          "localSha256": "662bd383e73637d28cb8c1e7532834ea16cc3b83be01f4007a7cdfbe2d0aa1d6",
+          "upstreamBytes": 5269,
+          "upstreamLines": 157,
+          "upstreamSha256": "d18a15b6b3f833e914830a4f49c454ca5b0fb74ae21f559b001baab47405ce63",
+          "matchedBlockLines": 55,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 83,
+              "localStartLine": 92,
+              "lineCount": 16,
+              "eolNormalizedBytes": 766,
+              "sha256": "54e9c6529795f38870201ac77c298325fe221ea97f1e065fe1ae90db353ca5de"
+            },
+            {
+              "upstreamStartLine": 100,
+              "localStartLine": 109,
+              "lineCount": 11,
+              "eolNormalizedBytes": 305,
+              "sha256": "a4951cb52657e96a41abc2adfec229cc61d077cee6d0e47cd4b8cfcab73d7b3d"
+            },
+            {
+              "upstreamStartLine": 114,
+              "localStartLine": 126,
+              "lineCount": 28,
+              "eolNormalizedBytes": 1181,
+              "sha256": "0cafd4e42ec21d2aa54dfe40a2e5e1666227c369ebc44ba26a7c33ab02b64712"
+            }
+          ]
+        },
+        {
+          "path": "src/lib/tauri.ts",
+          "localBytes": 26553,
+          "localLines": 951,
+          "localSha256": "dd87acfcea5b3d6a19c5ed6debf6a0b7ac6d419391e12f301f8294cf614d0a1b",
+          "upstreamBytes": 4067,
+          "upstreamLines": 155,
+          "upstreamSha256": "6255e4ea57f8b0cc65c25727994cc5460babb1111c8053f293ca6009e90c82eb",
+          "matchedBlockLines": 54,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 55,
+              "localStartLine": 516,
+              "lineCount": 24,
+              "eolNormalizedBytes": 494,
+              "sha256": "ad4990a6fc428310fad399cc25bc6ecbf4e49c7fd3766ab6ab674d1930ca1ba2"
+            },
+            {
+              "upstreamStartLine": 86,
+              "localStartLine": 911,
+              "lineCount": 15,
+              "eolNormalizedBytes": 335,
+              "sha256": "2091936b335d5b5ea3fd77454515c016667186e085f3ef07be09b48fcb8fc7fa"
+            },
+            {
+              "upstreamStartLine": 119,
+              "localStartLine": 937,
+              "lineCount": 15,
+              "eolNormalizedBytes": 425,
+              "sha256": "ecd506a2b0284d66d5b8ae37011cbb58d45da6532af2e3fccfb1ec19f04b2084"
+            }
+          ]
+        },
+        {
+          "path": "src/components/Capsule/index.tsx",
+          "localBytes": 5179,
+          "localLines": 158,
+          "localSha256": "8656cf89839eb8028b295b29876a86345112da43dca859b8a10ba203365ad589",
+          "upstreamBytes": 4722,
+          "upstreamLines": 137,
+          "upstreamSha256": "935b85c4b2fd06379389ab97305d6f637d0c7ee00fae645022d6a0210c05cb73",
+          "matchedBlockLines": 43,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 37,
+              "localStartLine": 69,
+              "lineCount": 14,
+              "eolNormalizedBytes": 553,
+              "sha256": "86891ed18187107ce9f37a732a2de463f5d9dd620dd834fa4391a82a1beb33fd"
+            },
+            {
+              "upstreamStartLine": 57,
+              "localStartLine": 85,
+              "lineCount": 14,
+              "eolNormalizedBytes": 300,
+              "sha256": "280debe0be26c70ff6bb0ccc2433e9c84808fb15f8f9bfff697a8949282bfeea"
+            },
+            {
+              "upstreamStartLine": 78,
+              "localStartLine": 115,
+              "lineCount": 15,
+              "eolNormalizedBytes": 263,
+              "sha256": "ba9beeac2b0b794bac47e0adc95f9e510a01c2566c8413a1f33b81ed3bb549ac"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/audio/capture.rs",
+          "localBytes": 33305,
+          "localLines": 1003,
+          "localSha256": "ce9bb82322d4918e0a6d095c17a0ad48d692366aa5f9da007e72f03e2876a5e3",
+          "upstreamBytes": 7232,
+          "upstreamLines": 220,
+          "upstreamSha256": "da23797e2ac275d415f2afe902217c2d84e3d379296f081924044eb1df3675a4",
+          "matchedBlockLines": 30,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 9,
+              "localStartLine": 15,
+              "lineCount": 20,
+              "eolNormalizedBytes": 334,
+              "sha256": "774e622822ef6a3dbb2b857c22f3232902b9cce233008c70ecd392f66c64e175"
+            },
+            {
+              "upstreamStartLine": 87,
+              "localStartLine": 545,
+              "lineCount": 10,
+              "eolNormalizedBytes": 368,
+              "sha256": "5226f94216be97d16b24160a8b3e303411a4d878a12b741fd67eb6d51549cdbe"
+            }
+          ]
+        },
+        {
+          "path": "src/components/MainLayout/AccessibilityBanner.tsx",
+          "localBytes": 2261,
+          "localLines": 61,
+          "localSha256": "3105cadb3d3aec7cd37152f3ddd7e73559aa2f2edf5496a488ff0180967c89e0",
+          "upstreamBytes": 2917,
+          "upstreamLines": 70,
+          "upstreamSha256": "f06866fcdd51b116ef2394a9d5070032b8c252c1718cd3a830582ca2afa9e4d8",
+          "matchedBlockLines": 28,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 10,
+              "localStartLine": 7,
+              "lineCount": 9,
+              "eolNormalizedBytes": 459,
+              "sha256": "f59831cc3db25b5b468c48ef926900f4b8929dcd1d5cb73712d76b2b63386fbb"
+            },
+            {
+              "upstreamStartLine": 20,
+              "localStartLine": 16,
+              "lineCount": 19,
+              "eolNormalizedBytes": 660,
+              "sha256": "57fe7f92613c2c9d5b6b7cbc24a4a6bf5839927631bb8450a0468d9284aad9c6"
+            }
+          ]
+        },
+        {
+          "path": "src/hooks/useTauriEvents.ts",
+          "localBytes": 5634,
+          "localLines": 159,
+          "localSha256": "85d44d95ee9e43bf283d808e4b2de63d73511cc92ba32cc288461d2d1faee08f",
+          "upstreamBytes": 3743,
+          "upstreamLines": 115,
+          "upstreamSha256": "a3ee0f5dc58f6d28b2c6367825465b770769c45cce9ae5f6da84c1af75fc1e9d",
+          "matchedBlockLines": 25,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 29,
+              "localStartLine": 47,
+              "lineCount": 15,
+              "eolNormalizedBytes": 407,
+              "sha256": "5ad13b653162cfae3f57c234cf2d559e2c6950ea49eac73f90817a2a73b2c0e6"
+            },
+            {
+              "upstreamStartLine": 58,
+              "localStartLine": 92,
+              "lineCount": 10,
+              "eolNormalizedBytes": 369,
+              "sha256": "48718610ab52368086223c684f4caa88aa1055aa663ba414d4b11bb1ab5eee22"
+            }
+          ]
+        },
+        {
+          "path": "src/components/ErrorBoundary.tsx",
+          "localBytes": 3956,
+          "localLines": 119,
+          "localSha256": "196a9fe002468f5cfc5257a19f54a6b1bea8d8be47741718605576663435d391",
+          "upstreamBytes": 1288,
+          "upstreamLines": 47,
+          "upstreamSha256": "fbe42814bb4b80fcf2dd36d37fca97fff948c9608f017a4a3f44ca77ffc85711",
+          "matchedBlockLines": 22,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 3,
+              "localStartLine": 76,
+              "lineCount": 22,
+              "eolNormalizedBytes": 492,
+              "sha256": "9964dea251b364b968f563ce88e39e09f71fdb5433182a217e0a96cd8bb77678"
+            }
+          ]
+        },
+        {
+          "path": "src/components/Capsule/CapsuleContextMenu.tsx",
+          "localBytes": 2449,
+          "localLines": 93,
+          "localSha256": "1d975e823a1b0260f18b9f927b2284b342badddad1a3618bf318222de160e307",
+          "upstreamBytes": 3373,
+          "upstreamLines": 123,
+          "upstreamSha256": "cc7e97030a1ac75849954a8821e0aced6d8ce318179beecbb94bed4eb1cc430c",
+          "matchedBlockLines": 18,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 18,
+              "localStartLine": 17,
+              "lineCount": 7,
+              "eolNormalizedBytes": 212,
+              "sha256": "1c0c4e6d341c43b6311743c5dbe48b3fe899f2d53a01b504100e9c9d63d58a93"
+            },
+            {
+              "upstreamStartLine": 102,
+              "localStartLine": 72,
+              "lineCount": 11,
+              "eolNormalizedBytes": 304,
+              "sha256": "e2f150cb0f09d2dbbc4587a1d379fee5908a1dc5b6b7ee85a8dc516f54a6df62"
+            }
+          ]
+        },
+        {
+          "path": "src/lib/router.ts",
+          "localBytes": 721,
+          "localLines": 25,
+          "localSha256": "5536eaf32648ecd9bb7405af05b46febae5262e2f0f135e2f58346dba284e0b5",
+          "upstreamBytes": 789,
+          "upstreamLines": 26,
+          "upstreamSha256": "0fa7e0bcbb023c2715087dc0b68736da35ee4e240846dd64019a5fad15fa341c",
+          "matchedBlockLines": 18,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 9,
+              "localStartLine": 8,
+              "lineCount": 18,
+              "eolNormalizedBytes": 460,
+              "sha256": "9cec87e8f2d1c9a57f49bc779baf6514aff184c7b0de6e4d8dcbbd5f6025dc49"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/commands/llm.rs",
+          "localBytes": 15980,
+          "localLines": 524,
+          "localSha256": "bcf4a5bfea36063bd36518c984eb06559db32fd0bad35f48196f90e964b30430",
+          "upstreamBytes": 6353,
+          "upstreamLines": 200,
+          "upstreamSha256": "49f7a0ab6f700f7b20b98c87108f4842274099dcbfd936c0d8ad61256274f9ac",
+          "matchedBlockLines": 17,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 103,
+              "localStartLine": 172,
+              "lineCount": 17,
+              "eolNormalizedBytes": 563,
+              "sha256": "b8d80d89c6fc9f05a51ae2fe198ab3907fd41c2e1d2a5b63f08574a161494060"
+            }
+          ]
+        },
+        {
+          "path": "src/lib/constants.ts",
+          "localBytes": 1058,
+          "localLines": 16,
+          "localSha256": "8518771008d534080f47bebeaa50e113bb5ca087a4cb588a968eeb0ab3a592b7",
+          "upstreamBytes": 6860,
+          "upstreamLines": 163,
+          "upstreamSha256": "4e461f5637b6ada606b5d9f045ebdc1bbeee3abd6a65ae59416f6c50d1bb373a",
+          "matchedBlockLines": 15,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 100,
+              "localStartLine": 1,
+              "lineCount": 15,
+              "eolNormalizedBytes": 1055,
+              "sha256": "50ad058fada69cdbbc8630969447ed02797ae61e8952040ba82a8934901cc062"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/commands/config.rs",
+          "localBytes": 13881,
+          "localLines": 441,
+          "localSha256": "e46f1820b68eb69b7b83036c5b1438e0723b78d01907a81ae704a07ebfb0050e",
+          "upstreamBytes": 4740,
+          "upstreamLines": 154,
+          "upstreamSha256": "89120073ec5f547bfd2ad39ac09ae3ee8cb41af50bffa49e58ac465061fe7e11",
+          "matchedBlockLines": 12,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 97,
+              "localStartLine": 381,
+              "lineCount": 12,
+              "eolNormalizedBytes": 251,
+              "sha256": "6f4ff7619919adbaf4f2009b84cbc5684a0478fd4259cd2290f0e86aec475760"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/commands/history.rs",
+          "localBytes": 681,
+          "localLines": 25,
+          "localSha256": "0e7d12e3e36d4def2a63705a750d8c43766ae5e4f45afac3c2b442e2541171e3",
+          "upstreamBytes": 436,
+          "upstreamLines": 15,
+          "upstreamSha256": "cf3e22a15821cc3d828e3443313985aa143c255fca865d533498cbb6554c5427",
+          "matchedBlockLines": 12,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 12,
+              "eolNormalizedBytes": 283,
+              "sha256": "397465986b3e22d8bab14befbd623ad37a764be006393a313f7d5300ab30ffa1"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/commands/misc.rs",
+          "localBytes": 6102,
+          "localLines": 206,
+          "localSha256": "b91b8588d5afc0b1614760d7eb86ceeaf9075098d78d893f9f83c42560c892e1",
+          "upstreamBytes": 2190,
+          "upstreamLines": 72,
+          "upstreamSha256": "81ff29a21dd20e7f9b504dffd52f5de697dc0c1f910c495866961bc44c8f9a48",
+          "matchedBlockLines": 12,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 10,
+              "localStartLine": 17,
+              "lineCount": 12,
+              "eolNormalizedBytes": 236,
+              "sha256": "d5dc2f6b8c64155fae880ba59ee4c37495943727701e7e1cc9dbce975d210683"
+            }
+          ]
+        },
+        {
+          "path": "src/hooks/useRecording.ts",
+          "localBytes": 1850,
+          "localLines": 54,
+          "localSha256": "04abdf225449e1f4a9b4c52d9674c30d8c842065b4acca8a72fd3f27bda7a835",
+          "upstreamBytes": 757,
+          "upstreamLines": 29,
+          "upstreamSha256": "8a765b5c47098964f85b4ba2fc7efeb3c27d67ffee66e1fdc13f5d6ea93636a2",
+          "matchedBlockLines": 12,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 16,
+              "localStartLine": 39,
+              "lineCount": 12,
+              "eolNormalizedBytes": 300,
+              "sha256": "bb0a570004344b612d29824539abad8fac09ee803bb5f5f4985eacdbad183dcd"
+            }
+          ]
+        },
+        {
+          "path": "src/stores/appStore.ts",
+          "localBytes": 23559,
+          "localLines": 645,
+          "localSha256": "013bedb7e5d58fef09ec65cc7ac8a7769ee76576cf039fa94c54ed4d3ac712a8",
+          "upstreamBytes": 7763,
+          "upstreamLines": 273,
+          "upstreamSha256": "5cc054685ebe40e58c40e72b73e77bab3a1eb84383a23ff4edde0aee77ba281b",
+          "matchedBlockLines": 9,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 252,
+              "localStartLine": 552,
+              "lineCount": 9,
+              "eolNormalizedBytes": 310,
+              "sha256": "aa97669ec61b0dd81680b849beb57727e1ecbfd6fd644d33b6dd2716735a293d"
+            }
+          ]
+        },
+        {
+          "path": "src-tauri/src/commands/dictionary.rs",
+          "localBytes": 228,
+          "localLines": 8,
+          "localSha256": "f817f4971b18201ee07ac409600fe2587144f146299ad6ea92d4b48b18b5671f",
+          "upstreamBytes": 1134,
+          "upstreamLines": 40,
+          "upstreamSha256": "52bc22d4be770d4eeb958e29d44001f9ac1889196fb586db251ca28fdec34610",
+          "matchedBlockLines": 8,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 1,
+              "localStartLine": 1,
+              "lineCount": 8,
+              "eolNormalizedBytes": 227,
+              "sha256": "0ef5af11138ce25c0b0a92bb26e951440c6ef1cc666d5e498558108060a7afc5"
+            }
+          ]
+        },
+        {
+          "path": "src/styles/globals.css",
+          "localBytes": 107608,
+          "localLines": 5452,
+          "localSha256": "b267d1293ea7bdd8df1a3a589d4e18aa1347ad13479b070821040d1586f35a58",
+          "upstreamBytes": 15569,
+          "upstreamLines": 634,
+          "upstreamSha256": "6c0343ce82273a5e3311ef9dc9d672fc498c6700bef1112ef14d32c2f520fa02",
+          "matchedBlockLines": 8,
+          "matchingBlocks": [
+            {
+              "upstreamStartLine": 604,
+              "localStartLine": 33,
+              "lineCount": 8,
+              "eolNormalizedBytes": 208,
+              "sha256": "c800f603a79b3cb0968bcb327f1b612d454c1b03e63b96578f601f065303de0b"
+            }
+          ]
+        }
+      ],
+      "trackedAssets": [
+        {
+          "localPath": "docs/images/app-history.png",
+          "bytes": 36384,
+          "sha256": "224e5affc905c9bdc50ef04149dbd9b821c4d0d3088c4e9a96fd5843207fc656",
+          "upstreamExactPaths": [
+            "docs/images/app-history.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/app-main-light.png",
+          "bytes": 95538,
+          "sha256": "d8855137cd0ec4c35a3ccbbe02ad4dadeab29cbfa3c327a14bc604f0d4c3fde7",
+          "upstreamExactPaths": [
+            "docs/images/app-main-light.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/app-settings.png",
+          "bytes": 67230,
+          "sha256": "a7e7262b8c9920f4c3d3c3beb43aeb40382b44856e808c991f95245aec32543d",
+          "upstreamExactPaths": [
+            "docs/images/app-settings.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/demo.gif",
+          "bytes": 1400944,
+          "sha256": "22467a2302af6981b9565765c1e25a14fe1ecaf665b0c9b02c36d495167bfe32",
+          "upstreamExactPaths": [
+            "docs/images/demo.gif"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/voice-flow-demo.gif",
+          "bytes": 2392694,
+          "sha256": "56facafd490ec13fe888e503f343069889e50ddbb22960595cc060ea612ae638",
+          "upstreamExactPaths": [
+            "docs/images/voice-flow-demo.gif"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "docs/images/website.png",
+          "bytes": 183550,
+          "sha256": "03c81682ab99639599a56a62e136da4555efd81b1c1abda4e7d5d7099b95766d",
+          "upstreamExactPaths": [
+            "docs/images/website.png"
+          ],
+          "licenseEvidence": "Upstream project MIT LICENSE applies to repository content; retain its original copyright and permission notice."
+        },
+        {
+          "localPath": "src-tauri/icons/128x128.png",
+          "bytes": 19031,
+          "sha256": "8da4e4878af4449c515aaf6bd30847fde675095e6211a568b8105c6e2fef6651",
+          "upstreamExactPaths": [],
+          "licenseEvidence": "No exact upstream match. Independent ownership/license is not established by this comparison."
+        },
+        {
+          "localPath": "src-tauri/icons/128x128@2x.png",
+          "bytes": 65044,
+          "sha256": "b1b68afff9cee6b0ef082770cc7d340deeb019fea736f35c4f9654cb3b3bca80",
+          "upstreamExactPaths": [],
+          "licenseEvidence": "No exact upstream match. Independent ownership/license is not established by this comparison."
+        },
+        {
+          "localPath": "src-tauri/icons/32x32.png",
+          "bytes": 2383,
+          "sha256": "13c1d485b1b84ee4a3f9798dc14fde00676a1adf2fe6898734e13b9b1ab3e78a",
+          "upstreamExactPaths": [],
+          "licenseEvidence": "No exact upstream match. Independent ownership/license is not established by this comparison."
+        },
+        {
+          "localPath": "src-tauri/icons/64x64.png",
+          "bytes": 6564,
+          "sha256": "406b7a3fe3056b6cd8eb8f4543bb4b4a1e23d5be839bcbedadcff60c235c163b",
+          "upstreamExactPaths": [],
+          "licenseEvidence": "No exact upstream match. Independent ownership/license is not established by this comparison."
+        },
+        {
+          "localPath": "src-tauri/icons/app-icon-source.png",
+          "bytes": 1054278,
+          "sha256": "d794f490bc82dd3dff95f71bfefa687e37b4fc6ce38ecd89fe68950b14a1f926",
+          "upstreamExactPaths": [],
+          "licenseEvidence": "No exact upstream match. Independent ownership/license is not established by this comparison."
+        },
+        {
+          "localPath": "src-tauri/icons/icon.icns",
+          "bytes": 1745008,
+          "sha256": "07e216f07296b8a6cfa52effa5d3eb6d95a11b2d6118e4ee0c4313b0b474d98d",
+          "upstreamExactPaths": [],
+          "licenseEvidence": "No exact upstream match. Independent ownership/license is not established by this comparison."
+        },
+        {
+          "localPath": "src-tauri/icons/icon.ico",
+          "bytes": 81737,
+          "sha256": "764c8e2b665dac6c611840ebd24a32d824ca0acecb860711ccccb72713fbc017",
+          "upstreamExactPaths": [],
+          "licenseEvidence": "No exact upstream match. Independent ownership/license is not established by this comparison."
+        },
+        {
+          "localPath": "src-tauri/icons/icon.png",
+          "bytes": 267565,
+          "sha256": "add440a6ce55d19795809a2e2770c0726e9c36d3624336d5cff848e872e6ae67",
+          "upstreamExactPaths": [],
+          "licenseEvidence": "No exact upstream match. Independent ownership/license is not established by this comparison."
+        },
+        {
+          "localPath": "src/assets/echolike-icon.png",
+          "bytes": 66198,
+          "sha256": "ed0156b72bd833c634cc51d03b1e557e468a138d85550897f0fe39a64b6d713e",
+          "upstreamExactPaths": [],
+          "licenseEvidence": "No exact upstream match. Independent ownership/license is not established by this comparison."
+        }
+      ],
+      "exactUpstreamAssetCount": 6,
+      "sourcePathsAbsentFromUpstream": [
+        "server/src/app.ts",
+        "server/src/auth/auth.ts",
+        "server/src/auth/backend-proxy-access.ts",
+        "server/src/auth/session.ts",
+        "server/src/db/admin-insights.ts",
+        "server/src/db/client.ts",
+        "server/src/db/postgres/admin-store.ts",
+        "server/src/db/postgres/audit-store.ts",
+        "server/src/db/postgres/billing-store.ts",
+        "server/src/db/postgres/control-audit.ts",
+        "server/src/db/postgres/desktop-config-store.ts",
+        "server/src/db/postgres/quota-ledger-store.ts",
+        "server/src/db/postgres/row-values.ts",
+        "server/src/db/postgres/scene-store.ts",
+        "server/src/db/schema.ts",
+        "server/src/env.ts",
+        "server/src/errors.ts",
+        "server/src/http.ts",
+        "server/src/index.ts",
+        "server/src/jobs/prune-audit-logs.ts",
+        "server/src/jobs/reset-monthly-quota.ts",
+        "server/src/lifecycle.ts",
+        "server/src/middleware/admin-origin.ts",
+        "server/src/middleware/audit-log.ts",
+        "server/src/middleware/body-limit.ts",
+        "server/src/middleware/content-type.ts",
+        "server/src/middleware/in-flight-limit.ts",
+        "server/src/middleware/rate-limit.ts",
+        "server/src/middleware/request-id.ts",
+        "server/src/middleware/require-admin.ts",
+        "server/src/middleware/require-auth.ts",
+        "server/src/middleware/require-pro.ts",
+        "server/src/middleware/security-headers.ts",
+        "server/src/paths.ts",
+        "server/src/routes/admin-insights.ts",
+        "server/src/routes/admin-panel.ts",
+        "server/src/routes/admin-panel/dashboard-core-script.ts",
+        "server/src/routes/admin-panel/dashboard-interactions-script.ts",
+        "server/src/routes/admin-panel/dashboard-navigation-bindings-script.ts",
+        "server/src/routes/admin-panel/dashboard-ota-bindings-script.ts",
+        "server/src/routes/admin-panel/dashboard-ota-script.ts",
+        "server/src/routes/admin-panel/dashboard-page.ts",
+        "server/src/routes/admin-panel/dashboard-provider-bindings-script.ts",
+        "server/src/routes/admin-panel/dashboard-provider-script.ts",
+        "server/src/routes/admin-panel/dashboard-quota-script.ts",
+        "server/src/routes/admin-panel/dashboard-scene-bindings-script.ts",
+        "server/src/routes/admin-panel/dashboard-scene-script.ts",
+        "server/src/routes/admin-panel/dashboard-script.ts",
+        "server/src/routes/admin-panel/dashboard-shell-script.ts",
+        "server/src/routes/admin-panel/dashboard-usage-bindings-script.ts",
+        "server/src/routes/admin-panel/dashboard-usage-script.ts",
+        "server/src/routes/admin-panel/dashboard-user-bindings-script.ts",
+        "server/src/routes/admin-panel/dashboard-users-script.ts",
+        "server/src/routes/admin-panel/login-page.ts",
+        "server/src/routes/admin-panel/styles.ts",
+        "server/src/routes/admin.ts",
+        "server/src/routes/admin/control.ts",
+        "server/src/routes/admin/http-fields.ts",
+        "server/src/routes/admin/ota.ts",
+        "server/src/routes/admin/providers.ts",
+        "server/src/routes/admin/quota.ts",
+        "server/src/routes/admin/scenes.ts",
+        "server/src/routes/admin/system.ts",
+        "server/src/routes/admin/users.ts",
+        "server/src/routes/app-update.ts",
+        "server/src/routes/desktop-bootstrap.ts",
+        "server/src/routes/health.ts",
+        "server/src/routes/proxy-llm.ts",
+        "server/src/routes/proxy-ocr-document.ts",
+        "server/src/routes/proxy-ocr.ts",
+        "server/src/routes/proxy-stt.ts",
+        "server/src/routes/proxy-tts.ts",
+        "server/src/routes/stripe-webhook.ts",
+        "server/src/routes/subscription.ts",
+        "server/src/scripts/promote-admin.ts",
+        "server/src/services/admin/admin-insights-service.ts",
+        "server/src/services/admin/admin-service.ts",
+        "server/src/services/app-services.ts",
+        "server/src/services/audit/audit-service.ts",
+        "server/src/services/billing/entitlements.ts",
+        "server/src/services/billing/stripe.ts",
+        "server/src/services/desktop/desktop-config-service.ts",
+        "server/src/services/desktop/ota-artifact-validator.ts",
+        "server/src/services/desktop/pe-version-inspector.ts",
+        "server/src/services/ocr/document-ocr-service.ts",
+        "server/src/services/ocr/local-ocr-relay.ts",
+        "server/src/services/ocr/local-ocr-runtime.ts",
+        "server/src/services/ocr/pipeline-artifact.ts",
+        "server/src/services/proxy/llm-proxy.ts",
+        "server/src/services/proxy/ocr-proxy.ts",
+        "server/src/services/proxy/provider-config.ts",
+        "server/src/services/proxy/provider-presets.ts",
+        "server/src/services/proxy/proxy-services.ts",
+        "server/src/services/proxy/stt-proxy.ts",
+        "server/src/services/proxy/tts-proxy.ts",
+        "server/src/services/quota/operation-fingerprint.ts",
+        "server/src/services/quota/quota-response.ts",
+        "server/src/services/quota/quota-service.ts",
+        "server/src/services/quota/usage-ledger.ts",
+        "server/src/services/rate-limit/rate-limit-service.ts",
+        "server/src/services/scenes/default-scenes.ts",
+        "server/src/services/scenes/scene-service.ts",
+        "server/src/services/security/provider-control-service.ts",
+        "server/src/services/security/provider-egress-fetch.ts",
+        "server/src/services/security/provider-egress-policy.ts",
+        "server/src/services/security/provider-node-transport.ts",
+        "server/src/services/security/provider-runtime-address.ts",
+        "server/src/services/security/tauri-updater-signature.ts",
+        "server/src/types.ts",
+        "src-tauri/src/commands/backend.rs",
+        "src-tauri/src/commands/markdown_speech.rs",
+        "src-tauri/src/commands/ocr/capture.rs",
+        "src-tauri/src/commands/ocr/direct.rs",
+        "src-tauri/src/commands/ocr/docx.rs",
+        "src-tauri/src/commands/ocr/file_commands.rs",
+        "src-tauri/src/commands/ocr/mod.rs",
+        "src-tauri/src/commands/ocr/payload.rs",
+        "src-tauri/src/commands/ocr/pdf_render.rs",
+        "src-tauri/src/commands/ocr/proxy.rs",
+        "src-tauri/src/commands/ocr/text.rs",
+        "src-tauri/src/commands/ocr_runtime.rs",
+        "src-tauri/src/commands/update.rs",
+        "src-tauri/src/idempotency.rs",
+        "src-tauri/src/managed_state.rs",
+        "src-tauri/src/markdown_window.rs",
+        "src-tauri/src/network.rs",
+        "src-tauri/src/onboarding_guard.rs",
+        "src-tauri/src/pipeline/cloud_policy.rs",
+        "src-tauri/src/pipeline/errors.rs",
+        "src-tauri/src/pipeline/output_history.rs",
+        "src-tauri/src/pipeline/proxy_protocol.rs",
+        "src-tauri/src/process_ownership.rs",
+        "src-tauri/src/storage/atomic_file.rs",
+        "src-tauri/src/storage/config.rs",
+        "src-tauri/src/storage/config/tests.rs",
+        "src-tauri/src/storage/desktop_auth.rs",
+        "src-tauri/src/storage/dictionary.rs",
+        "src-tauri/src/storage/history.rs",
+        "src-tauri/src/stt/sensevoice.rs",
+        "src-tauri/src/system_audio.rs",
+        "src-tauri/src/window_runtime.rs",
+        "src-tauri/src/window_shape.rs",
+        "src/components/Capsule/CapsuleGlyph.tsx",
+        "src/components/Capsule/CapsulePresentation.tsx",
+        "src/components/Capsule/CapsuleSkinPreview.tsx",
+        "src/components/Capsule/capsuleSkin.ts",
+        "src/components/HomePage/MarkdownWorkspaceDialogs.tsx",
+        "src/components/HomePage/ScreenOcrDialog.tsx",
+        "src/components/HomePage/Workbench.tsx",
+        "src/components/HomePage/WorkbenchHistoryViews.tsx",
+        "src/components/HomePage/WorkbenchResultViews.tsx",
+        "src/components/HomePage/historyPresentation.ts",
+        "src/components/HomePage/ocrDomain.ts",
+        "src/components/HomePage/useMarkdownWorkspace.ts",
+        "src/components/HomePage/useWorkbenchAsk.ts",
+        "src/components/HomePage/useWorkbenchOcr.ts",
+        "src/components/HomePage/useWorkbenchSpeech.ts",
+        "src/components/MarkdownEditor/MarkdownEditorInput.tsx",
+        "src/components/MarkdownEditor/MarkdownEditorPreview.tsx",
+        "src/components/MarkdownEditor/MarkdownEditorShell.tsx",
+        "src/components/MarkdownEditor/MarkdownEditorToolbar.tsx",
+        "src/components/MarkdownEditor/MarkdownSpeechDialog.tsx",
+        "src/components/MarkdownEditor/markdownActions.ts",
+        "src/components/MarkdownEditor/markdownAi.ts",
+        "src/components/MarkdownEditor/markdownAiTask.ts",
+        "src/components/MarkdownEditor/markdownDraft.ts",
+        "src/components/MarkdownEditor/markdownEditorTheme.ts",
+        "src/components/MarkdownEditor/markdownPreview.ts",
+        "src/components/MarkdownEditor/markdownScrollSync.ts",
+        "src/components/MarkdownEditor/markdownSpeech.ts",
+        "src/components/Onboarding/OnboardingOverlay.tsx",
+        "src/components/OtaProgressMeter.tsx",
+        "src/components/ScenePresetSelect.tsx",
+        "src/components/Settings/AboutSettingsPanel.tsx",
+        "src/components/Settings/AiSettingsPanel.tsx",
+        "src/components/Settings/ControlPanel.tsx",
+        "src/components/Settings/DiagnosticsSettingsPanel.tsx",
+        "src/components/Settings/InputSettingsPanel.tsx",
+        "src/components/Settings/SpeechSettingsPanel.tsx",
+        "src/components/Settings/SystemSettingsPanel.tsx",
+        "src/components/Settings/configPersistence.ts",
+        "src/components/Settings/proxyUrl.ts",
+        "src/components/Settings/settingsCache.ts",
+        "src/components/Settings/settingsUi.tsx",
+        "src/components/Settings/useBackendAccount.ts",
+        "src/components/Settings/useOtaSettings.ts",
+        "src/components/Settings/useSettingsConnectionTests.ts",
+        "src/components/Settings/useSettingsDiagnostics.ts",
+        "src/components/StartupUpdatePrompt.tsx",
+        "src/components/Tooltip.tsx",
+        "src/components/shared/AudioLevelMeter.tsx",
+        "src/components/shared/audioLevel.ts",
+        "src/hooks/useDesktopAuthStorageSync.ts",
+        "src/hooks/useReducedMotion.ts",
+        "src/hooks/useStartupUpdateWindow.ts",
+        "src/lib/appearanceProfiles.ts",
+        "src/lib/branding.ts",
+        "src/lib/desktopAuth.ts",
+        "src/lib/desktopAuthRuntime.ts",
+        "src/lib/desktopBootstrap.ts",
+        "src/lib/fileNames.ts",
+        "src/lib/filePayload.ts",
+        "src/lib/markdownWindowLifecycle.ts",
+        "src/lib/markdownWindowSize.ts",
+        "src/lib/onboarding.ts",
+        "src/lib/scenePresets.ts",
+        "src/lib/secrets.ts",
+        "src/lib/startupData.ts",
+        "src/lib/startupUpdate.ts",
+        "src/lib/toast.ts",
+        "src/lib/ttsPlayback.ts",
+        "src/lib/userErrors.ts",
+        "src/stores/appStore.config.ts",
+        "src/stores/appStore.history.ts",
+        "src/stores/appStore.ota.ts",
+        "src/stores/appStore.recording.ts",
+        "src/stores/appStore.settings.ts",
+        "src/stores/appStore.types.ts",
+        "src/stores/appStore.workbench.ts",
+        "src/stores/fileCommandStore.ts",
+        "src/stores/lease.ts",
+        "src/styles/capsules.css",
+        "src/styles/themes.css",
+        "src/windows/CapsuleWindowApp.tsx",
+        "src/windows/MainWindowApp.tsx",
+        "src/windows/MarkdownEditorWindowApp.tsx",
+        "src/windows/useMainStartup.ts",
+        "src/windows/useMainUsageMode.ts"
+      ],
+      "localLicenseBytesMatchUpstream": true
+    }
+  },
+  "limitations": [
+    "The local earliest commit is a recovery baseline, so earlier development history is not available from this reachable graph.",
+    "A path absent from this upstream tree does not establish independent authorship or clear third-party rights.",
+    "Exact matching assets are attributable to the upstream repository's project-level MIT notice only; no independent contributor/brand-right clearance was obtained.",
+    "Dependencies, runtime downloads, provider models and full transitive binary/SBOM license obligations were not audited.",
+    "No current product source, snapshot source, Git remote, build, installed application, database or production state was changed.",
+    "The nine unmatched application icon files have a recorded generated-artwork/enlargement chain and earlier OpenAI gpt-image metadata, documented separately. Their input references and legal rights have not been fully established; C2PA signatures were not verified."
+  ],
+  "iconHistorySupplement": {
+    "file": "icon-history-supplement.json",
+    "sha256": "251cd01f116085e6b81154d64134e00f4790bf5a600c37c16f2f463d57e5e1b1",
+    "summary": "The Git chain and earlier PNG metadata support a generated-artwork/project-postprocessing method, rather than attributing these nine files to a Dragon emoji. They do not establish the input references, generator contract, legal ownership, complete rights clearance, or authenticity of a cryptographically verified C2PA claim."
+  }
+}

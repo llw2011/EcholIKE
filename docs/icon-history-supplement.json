@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "auditedAtUtc": "2026-10-07T15:57:38.495285+00:00",
+  "scope": "Only nine non-upstream-matching release icons and their three relevant replacement commits; no wider code comparison.",
+  "releaseCommit": "a7ce82a89850a2527616c4cf950056258527b82a",
+  "recoveryBaseline": "41246d1fa79ffa2f9586d24daed9a923905ac11d",
+  "historicalFragments": [
+    {
+      "commit": "ea2ca6cbac14b768caeb5eb0e4dcf650730698a4",
+      "committerDate": "2026-06-29T20:46:12+08:00",
+      "subject": "feat: refresh EcholIKE brand icon",
+      "finding": "Replaces old MIT-upstream icon blobs with a self-contained geometric E-and-lightning SVG and rendered variants. This SVG is later deleted; it is not the released source artwork."
+    },
+    {
+      "commit": "cc64c026d62953f974d7eed23270791e0776e325",
+      "committerDate": "2026-06-29T22:06:34+08:00",
+      "subject": "feat: apply generated EcholIKE icon",
+      "finding": "Introduces a 1024x1024 source PNG and frontend image, replaces icon variants, deletes the SVG. Commit records 'generated' artwork. The initial PNG contains caBX/C2PA markers identifying OpenAI Media Service API, gpt-image and trainedAlgorithmicMedia."
+    },
+    {
+      "commit": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "committerDate": "2026-07-05T21:25:13+08:00",
+      "subject": "Enlarge desktop app icon artwork",
+      "finding": "Records enlargement and replaces all nine icon blobs. Each release 0.2.31 icon blob exactly equals this replacement. The source PNG remains 1024x1024 but no longer contains caBX metadata."
+    }
+  ],
+  "assets": [
+    {
+      "path": "src-tauri/icons/128x128.png",
+      "firstIntroducedCommit": "41246d1fa79ffa2f9586d24daed9a923905ac11d",
+      "latestContentCommitAtRelease": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "releaseBlobSha1": "df81abd025e4cc3bde4c0b89cc899ec478f558c7",
+      "equalsJuly5Replacement": true
+    },
+    {
+      "path": "src-tauri/icons/128x128@2x.png",
+      "firstIntroducedCommit": "41246d1fa79ffa2f9586d24daed9a923905ac11d",
+      "latestContentCommitAtRelease": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "releaseBlobSha1": "8bd53c33370cebfe94707b8d81defe2eeeb2828c",
+      "equalsJuly5Replacement": true
+    },
+    {
+      "path": "src-tauri/icons/32x32.png",
+      "firstIntroducedCommit": "41246d1fa79ffa2f9586d24daed9a923905ac11d",
+      "latestContentCommitAtRelease": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "releaseBlobSha1": "e757e9e799a47e92906fff061311fac455da8ddd",
+      "equalsJuly5Replacement": true
+    },
+    {
+      "path": "src-tauri/icons/64x64.png",
+      "firstIntroducedCommit": "41246d1fa79ffa2f9586d24daed9a923905ac11d",
+      "latestContentCommitAtRelease": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "releaseBlobSha1": "912d61503a7ce08a61b2d396a72fa3b219149e86",
+      "equalsJuly5Replacement": true
+    },
+    {
+      "path": "src-tauri/icons/app-icon-source.png",
+      "firstIntroducedCommit": "cc64c026d62953f974d7eed23270791e0776e325",
+      "latestContentCommitAtRelease": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "releaseBlobSha1": "a43951d2ebab57ba2bc7e1614d031d6d67549cb1",
+      "equalsJuly5Replacement": true
+    },
+    {
+      "path": "src-tauri/icons/icon.icns",
+      "firstIntroducedCommit": "41246d1fa79ffa2f9586d24daed9a923905ac11d",
+      "latestContentCommitAtRelease": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "releaseBlobSha1": "09fd8ee243151bb347ef42764f892ed30e4056b6",
+      "equalsJuly5Replacement": true
+    },
+    {
+      "path": "src-tauri/icons/icon.ico",
+      "firstIntroducedCommit": "41246d1fa79ffa2f9586d24daed9a923905ac11d",
+      "latestContentCommitAtRelease": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "releaseBlobSha1": "3d064fb1c50cc4993c0f44eb9d1cbf28a4ca6bd7",
+      "equalsJuly5Replacement": true
+    },
+    {
+      "path": "src-tauri/icons/icon.png",
+      "firstIntroducedCommit": "41246d1fa79ffa2f9586d24daed9a923905ac11d",
+      "latestContentCommitAtRelease": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "releaseBlobSha1": "e374339197fc1df7c2bca1d74997e629de737c26",
+      "equalsJuly5Replacement": true
+    },
+    {
+      "path": "src/assets/echolike-icon.png",
+      "firstIntroducedCommit": "cc64c026d62953f974d7eed23270791e0776e325",
+      "latestContentCommitAtRelease": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "releaseBlobSha1": "3068b6132db9693a173b53ea5e252de40e02b86e",
+      "equalsJuly5Replacement": true
+    }
+  ],
+  "sourcePngMetadataEvidence": [
+    {
+      "commit": "cc64c026d62953f974d7eed23270791e0776e325",
+      "path": "src-tauri/icons/app-icon-source.png",
+      "fileBytes": 1343291,
+      "fileSha256": "edb196265464abf64eeff1d6e65d45288243635907bed2f0dcf0a199eeba6801",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "chunkTypes": [
+        "IDAT",
+        "IEND",
+        "IHDR",
+        "caBX"
+      ],
+      "caBXBytes": 29026,
+      "caBXSha256": "fe53419467a72475486932bad38a2bf6e360130ed4d6478d6de26ff6bceeb869",
+      "knownProvenanceMarkers": {
+        "OpenAI Media Service API": true,
+        "gpt-image": true,
+        "trainedAlgorithmicMedia": true,
+        "c2pa.created": true,
+        "c2pa.actions": true,
+        "claim_generator": true,
+        "digitalSourceType": true
+      },
+      "signatureValidationPerformed": false
+    },
+    {
+      "commit": "f26813b3532d1c157c2d813f0d8d85466c49896b",
+      "path": "src-tauri/icons/app-icon-source.png",
+      "fileBytes": 1054278,
+      "fileSha256": "d794f490bc82dd3dff95f71bfefa687e37b4fc6ce38ecd89fe68950b14a1f926",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "chunkTypes": [
+        "IDAT",
+        "IEND",
+        "IHDR"
+      ],
+      "caBXBytes": 0,
+      "caBXSha256": null,
+      "knownProvenanceMarkers": {
+        "OpenAI Media Service API": false,
+        "gpt-image": false,
+        "trainedAlgorithmicMedia": false,
+        "c2pa.created": false,
+        "c2pa.actions": false,
+        "claim_generator": false,
+        "digitalSourceType": false
+      },
+      "signatureValidationPerformed": false
+    }
+  ],
+  "separateDragonEmoji": {
+    "method": "Unicode U+1F409 rendered by the host/browser font stack; separate from the nine stored application artwork files.",
+    "sourcePath": "src/components/MainLayout/index.tsx",
+    "sourceLine": 87,
+    "fontStackPath": "src/styles/globals.css",
+    "fontStackLine": 3360,
+    "fontStack": [
+      "Segoe UI Emoji",
+      "Apple Color Emoji",
+      "Noto Color Emoji",
+      "sans-serif"
+    ],
+    "copyrightInference": "No claim of font/glyph copyright ownership or relicensing is made."
+  },
+  "finding": "The Git chain and earlier PNG metadata support a generated-artwork/project-postprocessing method, rather than attributing these nine files to a Dragon emoji. They do not establish the input references, generator contract, legal ownership, complete rights clearance, or authenticity of a cryptographically verified C2PA claim.",
+  "unresolved": [
+    "C2PA signature/certificate validation was not performed; markers are embedded metadata evidence only.",
+    "No generation prompt, reference-image record, generator account/terms acceptance, or distinct artist/source grant was found in the inspected tracked fragments.",
+    "The transformation is recorded by the enlargement commit; this audit does not assert a independently reproduced pixel transform or exclusive copyright in the final artwork.",
+    "No AGPL notice should purport to grant rights to third-party artwork, trademarks, emoji/font glyphs, or dependencies beyond rights actually held."
+  ]
+}

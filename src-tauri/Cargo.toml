@@ -1,0 +1,70 @@
+[package]
+name = "echolike"
+version = "0.2.31"
+description = "Local-first ultra-fast voice input and AI command desktop app"
+authors = ["EcholIKE Rebuild Contributors"]
+license = "AGPL-3.0-only"
+edition = "2021"
+
+[lib]
+name = "echolike_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[features]
+devtools = ["tauri/devtools"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "=2.11.2", features = ["tray-icon", "macos-private-api"] }
+tauri-plugin-global-shortcut = "2"
+tauri-plugin-store = "2"
+tauri-plugin-autostart = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-process = "2"
+tauri-plugin-single-instance = "2"
+tauri-plugin-updater = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+cpal = "0.15"
+enigo = "0.2"
+tokio = { version = "1", features = ["io-util", "rt", "macros", "process", "sync", "time"] }
+tokio-tungstenite = { version = "0.24", features = ["native-tls"] }
+reqwest = { version = "0.12", features = ["json", "stream", "multipart", "socks"] }
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+futures-util = "0.3"
+async-trait = "0.1"
+arboard = "3"
+http = "1"
+rusqlite = { version = "0.31", features = ["bundled"] }
+chrono = "0.4"
+url = "2"
+base64 = "0.22"
+zip = { version = "4.6.1", default-features = false }
+
+[target.'cfg(target_os = "windows")'.dependencies]
+windows = { version = "0.54", features = [
+    "Win32_Foundation",
+    "Win32_Media_Audio",
+    "Win32_Media_Audio_Endpoints",
+    "Win32_System_Com",
+] }
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_Networking_WinHttp",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_System_Threading",
+] }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+libloading = "0.8"
+
+[profile.release]
+codegen-units = 1
+opt-level = "s"
+lto = "thin"
+strip = true

@@ -1,0 +1,19 @@
+{
+  "package": "minisign-verify",
+  "version": "0.2.5",
+  "declaredLicense": "MIT",
+  "copyright": "Copyright (c) 2019-2025 Frank Denis",
+  "upstreamTag": "0.2.5",
+  "upstreamCommit": "3a91d03f86a8462a1af953c2854687d3f953d541",
+  "officialSourceBaseUrl": "https://raw.githubusercontent.com/jedisct1/rust-minisign-verify/3a91d03f86a8462a1af953c2854687d3f953d541/",
+  "officialApiUrl": "https://crates.io/api/v1/crates/minisign-verify/0.2.5",
+  "licenseBytes": 2312,
+  "licenseSha256": "42c8695fbc468866d9756be99af0ba4e37d733f8daa3c8827c8d80b8bec1b2f9",
+  "upstreamLibSha256": "8c62254ceed9fb769209124c0c134b38effe522a88c8cb76ec89ea8b38a772d2",
+  "copiedPublicTestVectorPayloadCount": 3,
+  "allPayloadsMatchVersionedUpstreamTests": true,
+  "comparisonNormalization": "Remove Rust backslash-newline string continuations; payload bytes unchanged.",
+  "testFile": "server/src/tests/tauri-updater-signature.test.ts",
+  "noPrivateKeyPayloadIncluded": true,
+  "crateArchiveIntegrityVerified": false
+}

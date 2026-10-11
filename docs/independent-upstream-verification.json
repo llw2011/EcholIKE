@@ -1,0 +1,54 @@
+{
+  "localCommit": "a7ce82a89850a2527616c4cf950056258527b82a",
+  "upstreamCommit": "1cfda3050e5ee5402e4ed86a31f372fd643fc9f7",
+  "files": [
+    {
+      "path": "src-tauri/src/output/clipboard.rs",
+      "upstreamUrl": "https://raw.githubusercontent.com/tover0314-w/opentypeless/1cfda3050e5ee5402e4ed86a31f372fd643fc9f7/src-tauri/src/output/clipboard.rs",
+      "bytes": 3046,
+      "lines": 85,
+      "localSha256": "b266b2d4c24fb5e8cf587977e362396d8beb85d813d40cbfed117ed56b317b70",
+      "upstreamSha256": "b266b2d4c24fb5e8cf587977e362396d8beb85d813d40cbfed117ed56b317b70",
+      "byteExact": true
+    },
+    {
+      "path": "src-tauri/src/output/keyboard.rs",
+      "upstreamUrl": "https://raw.githubusercontent.com/tover0314-w/opentypeless/1cfda3050e5ee5402e4ed86a31f372fd643fc9f7/src-tauri/src/output/keyboard.rs",
+      "bytes": 5217,
+      "lines": 160,
+      "localSha256": "b962507fcd8f52b7a55de63ed232311cec44d7585b82a3b677428ea6a9c523ce",
+      "upstreamSha256": "b962507fcd8f52b7a55de63ed232311cec44d7585b82a3b677428ea6a9c523ce",
+      "byteExact": true
+    },
+    {
+      "path": "src-tauri/src/output/mod.rs",
+      "upstreamUrl": "https://raw.githubusercontent.com/tover0314-w/opentypeless/1cfda3050e5ee5402e4ed86a31f372fd643fc9f7/src-tauri/src/output/mod.rs",
+      "bytes": 2192,
+      "lines": 67,
+      "localSha256": "6065abfb22b3205247be63f51ea13af27a9b43c5c299875f1f48873715146c4b",
+      "upstreamSha256": "6065abfb22b3205247be63f51ea13af27a9b43c5c299875f1f48873715146c4b",
+      "byteExact": true
+    },
+    {
+      "path": "src-tauri/src/stt/assemblyai.rs",
+      "upstreamUrl": "https://raw.githubusercontent.com/tover0314-w/opentypeless/1cfda3050e5ee5402e4ed86a31f372fd643fc9f7/src-tauri/src/stt/assemblyai.rs",
+      "bytes": 5649,
+      "lines": 164,
+      "localSha256": "439ed960a9c8a692904c32645d26471091bf750dbe6f142a4ecff3933cd2f3b6",
+      "upstreamSha256": "439ed960a9c8a692904c32645d26471091bf750dbe6f142a4ecff3933cd2f3b6",
+      "byteExact": true
+    },
+    {
+      "path": "src-tauri/src/stt/deepgram.rs",
+      "upstreamUrl": "https://raw.githubusercontent.com/tover0314-w/opentypeless/1cfda3050e5ee5402e4ed86a31f372fd643fc9f7/src-tauri/src/stt/deepgram.rs",
+      "bytes": 6440,
+      "lines": 212,
+      "localSha256": "df2b9e4891ba08fa79bee1b423d8772850f684dca8d0261205a2111cc391b9f4",
+      "upstreamSha256": "df2b9e4891ba08fa79bee1b423d8772850f684dca8d0261205a2111cc391b9f4",
+      "byteExact": true
+    }
+  ],
+  "byteExactFileCount": 5,
+  "totalBytes": 22544,
+  "totalLines": 688
+}

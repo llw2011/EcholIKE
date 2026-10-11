@@ -1,0 +1,27 @@
+{
+  "worktree": {
+    "setup": ["npm.cmd ci", "npm.cmd --prefix server ci"]
+  },
+  "scripts": {
+    "app": {
+      "type": "service",
+      "command": "npm.cmd run dev",
+      "healthPath": "/"
+    },
+    "typecheck": {
+      "command": "npm.cmd exec -- tsc --noEmit"
+    },
+    "test": {
+      "command": "npm.cmd test"
+    },
+    "build": {
+      "command": "npm.cmd run build"
+    },
+    "server:test": {
+      "command": "npm.cmd --prefix server test"
+    },
+    "server:tsc": {
+      "command": "npm.cmd --prefix server run typecheck"
+    }
+  }
+}

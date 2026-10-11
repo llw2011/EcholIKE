@@ -1,0 +1,12 @@
+pub mod backend;
+pub mod config;
+pub mod dictionary;
+pub mod history;
+pub mod llm;
+pub mod markdown_speech;
+pub mod misc;
+pub mod ocr;
+#[cfg(target_os = "windows")]
+pub(crate) mod ocr_runtime;
+pub mod stt;
+pub mod update;
